@@ -1,0 +1,29 @@
+name: Prettier check
+
+on:
+ push:
+  branches: [master]
+ pull_request:
+  branches: [master]
+
+jobs:
+ check:
+  name: Format check
+  runs-on: ubuntu-latest
+  strategy:
+   fail-fast: false
+   matrix:
+    language: ["javascript"]
+    node: ["16.x"]
+  steps:
+   - name: 🧱 Checkout repository
+     uses: actions/checkout@v3
+   - name: 🔩 Setup Node
+     uses: actions/setup-node@v3
+     with:
+      node-version: 16
+      cache: "npm"
+   - name: 🚀 Install dependencies
+     run: npm i --legacy-peer-deps
+   - name: 🚀 Check formatting
+     run: "npm run format:check"
