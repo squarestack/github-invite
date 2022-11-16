@@ -34,7 +34,7 @@
   "react-dom": "18.2.0"
  },
  "devDependencies": {
-  "@headlessui/tailwindcss": "^0.1.0",
+  "@headlessui/tailwindcss": "^0.1.1",
   "@igorkowalczyk/is-browser": "^1.0.1",
   "@tailwindcss/aspect-ratio": "^0.4.0",
   "eslint": "8.23.0",
