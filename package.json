@@ -36,7 +36,7 @@
  "devDependencies": {
   "@headlessui/tailwindcss": "^0.1.1",
   "@igorkowalczyk/is-browser": "^1.0.1",
-  "@tailwindcss/aspect-ratio": "^0.4.0",
+  "@tailwindcss/aspect-ratio": "^0.4.2",
   "eslint": "8.27.0",
   "eslint-config-next": "13.0.3",
   "prettier": "^2.7.1",
