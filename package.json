@@ -38,7 +38,7 @@
   "@igorkowalczyk/is-browser": "^1.0.1",
   "@tailwindcss/aspect-ratio": "^0.4.2",
   "eslint": "8.28.0",
-  "eslint-config-next": "13.0.4",
+  "eslint-config-next": "13.0.5",
   "prettier": "^2.8.0",
   "prettier-plugin-tailwindcss": "^0.1.13",
   "tailwindcss": "^3.2.4"
