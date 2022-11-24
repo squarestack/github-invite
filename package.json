@@ -29,7 +29,7 @@
  },
  "homepage": "https://invite.code2025.vercel.app",
  "dependencies": {
-  "next": "13.0.4",
+  "next": "13.0.5",
   "react": "18.2.0",
   "react-dom": "18.2.0"
  },
