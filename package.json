@@ -37,8 +37,10 @@
   "@headlessui/tailwindcss": "^0.1.1",
   "@igorkowalczyk/is-browser": "^1.0.1",
   "@tailwindcss/aspect-ratio": "^0.4.2",
+  "autoprefixer": "^10.4.13",
   "eslint": "8.29.0",
   "eslint-config-next": "13.0.5",
+  "postcss": "^8.4.19",
   "prettier": "^2.8.0",
   "prettier-plugin-tailwindcss": "^0.2.0",
   "tailwindcss": "^3.2.4"

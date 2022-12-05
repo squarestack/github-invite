@@ -21,3 +21,6 @@ out
 
 # Contentlayer
 .contentlayer
+
+# Package lock
+pnpm-lock.yaml
