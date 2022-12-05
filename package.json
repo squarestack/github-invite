@@ -37,7 +37,7 @@
   "@headlessui/tailwindcss": "^0.1.1",
   "@igorkowalczyk/is-browser": "^1.0.1",
   "@tailwindcss/aspect-ratio": "^0.4.2",
-  "eslint": "8.28.0",
+  "eslint": "8.29.0",
   "eslint-config-next": "13.0.5",
   "prettier": "^2.8.0",
   "prettier-plugin-tailwindcss": "^0.2.0",
