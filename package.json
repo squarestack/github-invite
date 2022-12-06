@@ -1,48 +1,55 @@
 {
- "name": "invite",
- "description": "Join our organization in a few clicks",
- "version": "1.0.0",
- "private": true,
- "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "deploy": "npm run build && npm run start",
-  "lint": "next lint",
-  "format": "prettier --write . --ignore-unknown",
-  "format:check": "prettier --check ."
- },
- "browserslist": [
-  ">0.3%",
-  "not ie 11",
-  "not dead",
-  "not op_mini all"
- ],
- "repository": {
-  "type": "git",
-  "url": "git+https://github.com/code2025/invite.git"
- },
- "author": "Igor Kowalczyk",
- "license": "MIT",
- "bugs": {
-  "url": "https://github.com/code2025/invite/issues"
- },
- "homepage": "https://invite.code2025.vercel.app",
- "dependencies": {
-  "next": "13.0.6",
-  "react": "18.2.0",
-  "react-dom": "18.2.0"
- },
- "devDependencies": {
-  "@headlessui/tailwindcss": "^0.1.1",
-  "@igorkowalczyk/is-browser": "^1.0.1",
-  "@tailwindcss/aspect-ratio": "^0.4.2",
-  "autoprefixer": "^10.4.13",
-  "eslint": "8.29.0",
-  "eslint-config-next": "13.0.5",
-  "postcss": "^8.4.19",
-  "prettier": "^2.8.0",
-  "prettier-plugin-tailwindcss": "^0.2.0",
-  "tailwindcss": "^3.2.4"
- }
+  "name": "invite",
+  "description": "Join our organization in a few clicks",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "npm run build && npm run start",
+    "lint": "next lint",
+    "format": "prettier --write . --ignore-unknown",
+    "format:check": "prettier --check ."
+  },
+  "browserslist": [
+    ">0.3%",
+    "not ie 11",
+    "not dead",
+    "not op_mini all"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code2025/invite.git"
+  },
+  "author": "Igor Kowalczyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/code2025/invite/issues"
+  },
+  "homepage": "https://invite.code2025.vercel.app",
+  "dependencies": {
+    "@next/font": "^13.0.6",
+    "@octokit/rest": "^19.0.5",
+    "@vercel/analytics": "^0.1.5",
+    "compression-webpack-plugin": "^10.0.0",
+    "lodash-webpack-plugin": "^0.11.6",
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "@headlessui/tailwindcss": "^0.1.1",
+    "@igorkowalczyk/is-browser": "^1.0.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.5",
+    "postcss": "^8.4.19",
+    "prettier": "^2.8.0",
+    "prettier-plugin-tailwindcss": "^0.2.0",
+    "tailwindcss": "^3.2.4"
+  }
 }

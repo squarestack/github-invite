@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.spinner {
+ vertical-align: -0.15em;
+ border: 0.15em solid;
+ border-right-color: transparent;
+}
