@@ -3,7 +3,6 @@ const LodashModuleReplacementPlugin = require("lodash-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const webpack = require("webpack");
 
-
 module.exports = {
  reactStrictMode: true,
  pageExtensions: ["mdx", "md", "jsx", "js"],
