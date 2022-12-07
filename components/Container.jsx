@@ -18,7 +18,7 @@ export function Container(props) {
     <link rel="canonical" href={meta.url + router.asPath} />
    </Head>
    <Nav />
-   <div className="flex min-h-screen flex-col bg-black antialiased">{children}</div>
+   <div className="flex min-h-screen flex-col bg-[url('/background.png')] bg-cover bg-fixed bg-no-repeat antialiased">{children}</div>
   </>
  );
 }

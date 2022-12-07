@@ -30,9 +30,14 @@ export default async function handler(req, res) {
    email,
    role: "direct_member",
   })
-  .catch((_) => {
-   const error = JSON.parse(JSON.stringify(_.response.data.errors[0].message));
-   return res.status(400).json({ message: error });
+  .catch((error) => {
+   if (typeof error.response.data.errors === "object") {
+    const errorMessage = JSON.parse(JSON.stringify(error.response.data.errors[0].message));
+    return res.status(400).json({ message: errorMessage });
+   } else {
+    const errorMessage = JSON.parse(JSON.stringify(error.response.data.message));
+    return res.status(400).json({ message: errorMessage });
+   }
   });
 
  return res.status(200).json({ message: "Invitation sent!" });
