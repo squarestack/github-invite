@@ -63,8 +63,18 @@ export default function Home() {
      <form onSubmit={handleSubmit}>
       <label htmlFor="input" className="flex justify-center">
        <span className="sr-only">Github Email</span>
-       <input id="input" type="email" autoFocus className={`${error ? "border-red-400 text-red-400 " : "border-white/15 "} rounded-lg border-2 !bg-transparent px-4 py-2 text-white outline-none duration-200 motion-reduce:transition-none`} placeholder="Enter your Github email" onChange={(e) => setInput(e.target.value)} />
-       <button className="ml-2 flex items-center justify-center rounded-lg bg-white px-4 py-2 text-black outline-none duration-200 hover:bg-white/80 motion-reduce:transition-none">{loading ? <div class="spinner inline-block h-6 w-6 animate-spin rounded-full border-2 text-black" role="status" /> : "Join us!"}</button>
+       <input
+        id="input"
+        type="email"
+        autoFocus
+        className={`${error ? "border-red-400 text-red-400 " : "border-white/15 "} rounded-lg border-2 !bg-transparent px-4 py-2 text-white outline-none duration-200 motion-reduce:transition-none`}
+        placeholder="Enter your Github email"
+        onChange={(e) => {
+         setInput(e.target.value);
+         setErrorMessage("");
+        }}
+       />
+       <button className="ml-2 flex items-center justify-center rounded-lg bg-white px-4 py-2 text-black outline-none duration-200 hover:bg-white/80 motion-reduce:transition-none">{loading ? <div className="spinner inline-block h-6 w-6 animate-spin rounded-full border-2 text-black" role="status" /> : "Join us!"}</button>
       </label>
       <div className="flex flex-col items-center justify-center py-2">
        {error && <p className="text-red-400">{error}</p>}
