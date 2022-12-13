@@ -29,6 +29,7 @@ export default async function handler(req, res) {
    org: process.env.ORGANIZATION,
    email,
    role: "direct_member",
+   team_ids: [parseInt(process.env.TEAM_ID)],
   })
   .catch((error) => {
    if (typeof error.response.data.errors === "object") {
