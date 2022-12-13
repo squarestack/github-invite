@@ -42,7 +42,7 @@ export default function Home() {
  };
 
  return (
-  <Container>
+  <Container title="Square Stack - Join">
    <div className="flex min-h-screen flex-col items-center justify-center py-2 duration-200">
     <Link href={`https://github.com/` + org} className="text-2xl font-bold leading-tight tracking-tighter text-white">
      <div className="flex items-center justify-center gap-4 text-5xl">
