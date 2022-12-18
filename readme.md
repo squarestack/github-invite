@@ -40,7 +40,6 @@ When submitting a pull request:
 
 This project is licensed under the MIT. See the [LICENSE](https://github.com/squarestack/invite/blob/main/license) file for details
 
-
 ## 📃 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
