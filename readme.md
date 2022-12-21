@@ -1,10 +1,20 @@
+
+  <a href="https://github.com/squarestack">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/49127376/208982596-408cc559-abd4-4647-a347-cc7893429983.svg" align="left" style="float: left; margin: 0 10px 0 0;">
+      <img src="https://user-images.githubusercontent.com/49127376/208982601-5de098f2-facc-49ad-bd90-bb37a46e8b5f.svg" align="left" style="float: left; margin: 0 10px 0 0;">
+    </picture>
+  </a>
+
+
 # Square Stack - Invite
 
-Join our organization in a few clicks
+> Join our organization in a few clicks
 
 [![GitHub License](https://img.shields.io/github/license/squarestack/invite?color=%2334D058&logo=github&style=flat-square&label=License)](https://github.com/squarestack/invite/blob/main/license)
 [![Version](https://img.shields.io/github/v/release/squarestack/invite?color=%2334D058&logo=github&style=flat-square&label=Version)](https://github.com/squarestack/invite/releases)
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/squarestack/invite?color=%2334D058&logo=github&style=flat-square&label=Vulnerabilities)](https://github.com/squarestack/invite)
+<br><br><br>
 
 ---
 
