@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@headlessui/tailwindcss': ^0.1.2
-  '@igorkowalczyk/is-browser': ^2.0.0
+  '@igorkowalczyk/is-browser': ^2.1.2
   '@next/font': ^13.0.6
   '@octokit/rest': ^19.0.5
   '@tailwindcss/aspect-ratio': ^0.4.2
@@ -36,7 +36,7 @@ dependencies:
 
 devDependencies:
   '@headlessui/tailwindcss': 0.1.2_tailwindcss@3.2.4
-  '@igorkowalczyk/is-browser': 2.0.1_tailwindcss@3.2.4
+  '@igorkowalczyk/is-browser': 2.1.2_tailwindcss@3.2.4
   '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.2.4
   autoprefixer: 10.4.13_postcss@8.4.19
   compression-webpack-plugin: 10.0.0_webpack@5.75.0
@@ -115,8 +115,9 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@igorkowalczyk/is-browser/2.0.1_tailwindcss@3.2.4:
-    resolution: {integrity: sha512-5xA4+4TuusHZRoiH9HJQlsVoDEbk3WRvZLF+OMKrRnl9nGBSPIc1iopCsEKOjTO+Xjm2vExAtAsNjneBOEf7Bg==}
+  /@igorkowalczyk/is-browser/2.1.2_tailwindcss@3.2.4:
+    resolution: {integrity: sha512-qbBae9oj2x/wy10Hq+XRmt/n9pPdFpNSQBxtrldV+1hCLNav6uSO83ug3fkhbEJnM79EiNVjWaNktesZMxDWkQ==}
+    engines: {node: '>=10'}
     peerDependencies:
       tailwindcss: ^3.0
     dependencies:

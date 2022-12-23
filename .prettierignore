@@ -24,3 +24,4 @@ out
 
 # Package lock
 pnpm-lock.yaml
+package.json
