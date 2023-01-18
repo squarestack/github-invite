@@ -30,7 +30,8 @@ export default async function handler(req, res) {
    email,
    role: "direct_member",
    team_ids: [parseInt(process.env.TEAM_ID)],
-  }).then((data) => {
+  })
+  .then((data) => {
    return res.status(200).json({ message: "Invitation sent!" });
   })
   .catch((error) => {

@@ -6,6 +6,6 @@ export default function App({ Component, pageProps, router }) {
   <main>
    <Component {...pageProps} key={router.route} />
    <Analytics />
-   </main>
+  </main>
  );
 }

@@ -8,6 +8,7 @@ export function Container(props) {
  const meta = {
   url: "https://invite.squarestack.vercel.app",
   image: "https://invite.squarestack.vercel.app/images/og-image.png",
+  description: "We are building open source projects with strong focus on user privacy. Our goal is to make the Internet more secure. In our applications everything is encrypted - in fact even we don't have access to users' data.",
   ...customMeta,
  };
 
