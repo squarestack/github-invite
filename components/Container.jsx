@@ -7,6 +7,7 @@ export function Container(props) {
  const router = useRouter();
  const meta = {
   url: "https://invite.squarestack.vercel.app",
+  image: "https://invite.squarestack.vercel.app/images/og-image.png",
   ...customMeta,
  };
 
@@ -21,9 +22,11 @@ export function Container(props) {
     <meta property="og:site_name" content="Square Stack" />
     <meta property="og:description" content={meta.description} />
     <meta property="og:title" content={meta.title} />
+    <meta property="og:image" content={meta.image} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@stack_square" />
     <meta name="twitter:title" content={meta.title} />
+    <meta name="twitter:image" content={meta.image} />
     <meta name="twitter:description" content={meta.description} />
     <meta name="twitter:creator" content="@stack_square" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -38,7 +41,7 @@ export function Container(props) {
     <meta name="theme-color" content="#000000"></meta>
    </Head>
    <Nav />
-   <div className="flex min-h-screen flex-col bg-[url('/background.png')] bg-cover bg-fixed bg-no-repeat antialiased">{children}</div>
+   <div className="flex min-h-screen flex-col bg-[#000] antialiased">{children}</div>
   </>
  );
 }

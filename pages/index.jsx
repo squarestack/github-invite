@@ -2,12 +2,12 @@ import { Container } from "../components/Container";
 import { useState } from "react";
 
 import Link from "next/link";
-export default function Home() {
+export default function Home({ org }) {
  const [input, setInput] = useState("");
  const [loading, setLoading] = useState(false);
  const [error, setErrorMessage] = useState("");
  const [success, setSuccess] = useState(false);
- const org = process.env.ORGANIZATION;
+
 
  const handleSubmit = async (e) => {
   e.preventDefault();
@@ -45,7 +45,7 @@ export default function Home() {
   <Container title="Square Stack - Join">
    <div className="flex min-h-screen flex-col items-center justify-center py-2 duration-200">
     <Link href={`https://github.com/` + org} className="text-2xl font-medium leading-tight tracking-tighter text-white">
-     <div className="flex items-center justify-center gap-4 text-5xl">
+     <div className="flex items-center justify-center gap-4 text-5xl font-blont">
       <svg className="animate-rotate" width="64" height="64" viewBox="0 0 167 162" fill="none" xmlns="http://www.w3.org/2000/svg">
        <path d="M107.251 0.442581C106.675 0.814203 96.0023 7.55584 96.0023 7.55584L124.813 24.6741C124.847 24.696 124.883 24.7193 124.922 24.7439L124.924 24.7455C125.373 25.0334 126.105 25.5025 126.461 26.0918C126.849 26.7327 126.98 27.5042 126.967 28.2358V73.635C126.967 73.7268 126.968 73.8186 126.968 73.9099C126.977 75.025 126.985 76.0914 125.723 76.8389L96.4827 94.4915L108.07 100.915C108.306 101.032 109.187 101.118 109.749 101.046C110.312 100.974 110.855 100.786 111.346 100.495L138.6 83.8533C139.143 83.4878 139.52 83.0678 139.788 82.5185C140.056 81.9693 140.102 81.4144 140.116 80.7427L140.329 20.3348C140.329 19.6892 140.24 19.0435 139.919 18.4859C139.598 17.9283 139.143 17.6157 138.539 17.2242C138.539 17.2242 110.659 0.814241 110.041 0.442581C109.424 0.0709205 109.205 -0.00479007 108.625 0.000227837C108.061 0.00511057 107.826 0.0709584 107.251 0.442581Z" fill="white" />
        <path d="M25.3152 20.2035C25.3499 20.8867 25.8623 33.4841 25.8623 33.4841L55.1193 17.1368C55.1552 17.1185 55.1935 17.0988 55.234 17.0779L55.2366 17.0765C55.7109 16.8323 56.4837 16.4344 57.1732 16.421C57.923 16.4065 58.658 16.6786 59.2861 17.0558L98.6733 39.7553C98.753 39.8013 98.8329 39.8466 98.9126 39.8917C99.8842 40.4419 100.813 40.9681 100.831 42.4325L101.526 76.5367L111.98 69.5404C112.2 69.3953 112.88 68.787 113.099 68.2644C113.318 67.7418 113.586 67.2394 113.578 66.6694L113.355 34.8085C113.31 34.1556 113.134 33.62 112.791 33.1138C112.448 32.6076 111.99 32.2902 111.414 31.9421L59.1122 1.55462C58.552 1.2318 57.9475 0.98565 57.3033 0.984182C56.6592 0.982714 56.1605 1.21962 55.5186 1.54645C55.5186 1.54645 27.3417 17.4432 26.7105 17.7911C26.0794 18.1389 25.904 18.2907 25.6186 18.7942C25.3409 19.2841 25.2805 19.5202 25.3152 20.2035Z" fill="white" />
@@ -73,7 +73,7 @@ export default function Home() {
         id="input"
         type="email"
         autoFocus
-        className={`${error ? "border-red-400 text-red-400 " : "border-white/15 "} rounded-lg border-2 !bg-transparent px-4 py-2 text-white outline-none duration-200 motion-reduce:transition-none`}
+        className={`${error ? "border-red-400 text-red-400 placeholder:text-red-400" : "border-white/15 "} rounded-lg border-2 !bg-transparent px-4 py-2 text-white outline-none duration-200 motion-reduce:transition-none placeholder:text-white`}
         placeholder="Enter your Github email"
         onChange={(e) => {
          setInput(e.target.value);
@@ -91,4 +91,12 @@ export default function Home() {
    </div>
   </Container>
  );
+}
+
+export async function getServerSideProps(context) {
+ return {
+  props: {
+    org: process.env.ORGANIZATION
+  }
+ }
 }

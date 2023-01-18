@@ -13,6 +13,9 @@ module.exports = {
    animation: {
     rotate: "rotate 6s ease-in-out infinite",
    },
+   fontFamily: {
+    blont: ["Blont", "sans-serif"],
+   },
   },
  },
  plugins: [require("@headlessui/tailwindcss"), require("@igorkowalczyk/is-browser"), require("@tailwindcss/aspect-ratio")],
