@@ -22,7 +22,7 @@ export default function Home({ org }) {
 
   const res = await fetch("/api/invite", {
    body: JSON.stringify({
-    email: input,
+    username: input,
    }),
    headers: {
     "Content-Type": "application/json",
@@ -53,7 +53,6 @@ export default function Home({ org }) {
        <path d="M141.365 142.339C141.33 141.656 140.818 129.058 140.818 129.058L111.561 145.406C111.525 145.424 111.487 145.444 111.446 145.465L111.444 145.466C110.97 145.71 110.197 146.108 109.507 146.121C108.757 146.136 108.022 145.864 107.394 145.487L68.0071 122.787C67.9274 122.741 67.8475 122.696 67.7678 122.651C66.7962 122.101 65.867 121.574 65.8493 120.11L65.1546 86.0058L53.7884 92.8109C53.5685 92.9559 53.0536 93.6747 52.8348 94.1972C52.616 94.7198 52.5071 95.2828 52.5147 95.8528L53.3256 127.734C53.3708 128.387 53.5468 128.922 53.8895 129.429C54.2321 129.935 54.6904 130.252 55.266 130.6L107.568 160.988C108.128 161.311 108.733 161.557 109.377 161.558C110.021 161.56 110.52 161.323 111.162 160.996C111.162 160.996 139.339 145.099 139.97 144.751C140.601 144.404 140.776 144.252 141.062 143.748C141.339 143.258 141.4 143.022 141.365 142.339Z" fill="white" />
        <path d="M165.602 61.6221C164.992 61.3104 153.807 55.4547 153.807 55.4547L153.361 88.9203C153.359 88.9605 153.357 89.0035 153.355 89.049L153.355 89.0519C153.329 89.584 153.288 90.451 152.955 91.0537C152.593 91.7092 151.989 92.2086 151.348 92.563L111.961 115.263C111.881 115.309 111.802 115.355 111.723 115.401C110.76 115.966 109.838 116.506 108.559 115.789L78.6239 99.3378L78.8447 112.566C78.8606 112.829 79.2267 113.633 79.5707 114.084C79.9146 114.534 80.3486 114.91 80.847 115.188L108.912 130.428C109.501 130.715 110.053 130.831 110.664 130.788C111.274 130.745 111.779 130.507 112.369 130.184L164.883 100.163C165.443 99.8403 165.959 99.4408 166.283 98.8847C166.606 98.3286 166.65 97.779 166.687 97.0607C166.687 97.0607 166.984 64.754 166.998 64.0345C167.012 63.3149 166.968 63.0874 166.673 62.589C166.387 62.1039 166.213 61.9337 165.602 61.6221Z" fill="white" />
       </svg>
-
       <p>
        Square Stack<span className="ml-2 align-top text-xs font-normal tracking-wide">Beta</span>
       </p>
@@ -67,13 +66,13 @@ export default function Home({ org }) {
     <div className="pt-6">
      <form onSubmit={handleSubmit}>
       <label htmlFor="input" className="flex justify-center">
-       <span className="sr-only">Github Email</span>
+       <span className="sr-only">Github Username</span>
        <input
         id="input"
-        type="email"
+        type="name"
         autoFocus
         className={`${error ? "border-red-400 text-red-400 placeholder:text-red-400" : "border-white/15 "} rounded-lg border-2 !bg-transparent px-4 py-2 text-white outline-none duration-200 placeholder:text-white motion-reduce:transition-none`}
-        placeholder="Enter your Github email"
+        placeholder="Enter your Github username"
         onChange={(e) => {
          setInput(e.target.value);
          setErrorMessage("");
