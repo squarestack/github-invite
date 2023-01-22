@@ -39,7 +39,7 @@
  },
  "devDependencies": {
   "@headlessui/tailwindcss": "0.1.2",
-  "@igorkowalczyk/is-browser": "2.1.2",
+  "@igorkowalczyk/is-browser": "3.0.0",
   "@tailwindcss/aspect-ratio": "0.4.2",
   "autoprefixer": "10.4.13",
   "compression-webpack-plugin": "10.0.0",
