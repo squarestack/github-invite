@@ -29,10 +29,10 @@
  },
  "homepage": "https://invite.code2025.vercel.app",
  "dependencies": {
-  "@next/font": "13.1.5",
+  "@next/font": "13.1.6",
   "@octokit/rest": "19.0.7",
   "@vercel/analytics": "0.1.8",
-  "next": "13.1.5",
+  "next": "13.1.6",
   "preact": "10.11.3",
   "react": "18.2.0",
   "react-dom": "18.2.0"
@@ -44,7 +44,7 @@
   "autoprefixer": "10.4.13",
   "compression-webpack-plugin": "10.0.0",
   "eslint": "8.32.0",
-  "eslint-config-next": "13.1.5",
+  "eslint-config-next": "13.1.6",
   "eslint-config-prettier": "8.6.0",
   "lodash-webpack-plugin": "0.11.6",
   "postcss": "8.4.21",
