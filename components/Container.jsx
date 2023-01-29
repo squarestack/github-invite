@@ -1,5 +1,4 @@
 import { useRouter } from "next/router";
-import { Nav } from "./Nav";
 import Head from "next/head";
 
 export function Container(props) {
@@ -41,8 +40,7 @@ export function Container(props) {
     <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
     <meta name="theme-color" content="#000000"></meta>
    </Head>
-   <Nav />
-   <div className="flex min-h-screen flex-col bg-[#000] antialiased">{children}</div>
+   <div className="flex min-h-screen flex-col bg-[#070706] antialiased">{children}</div>
   </>
  );
 }

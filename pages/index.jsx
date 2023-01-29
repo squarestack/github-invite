@@ -42,7 +42,7 @@ export default function Home({ org }) {
 
  return (
   <Container title="Square Stack - Join">
-   <div className="flex min-h-screen flex-col items-center justify-center py-2 duration-200">
+   <div className="flex min-h-screen flex-col items-center justify-center bg-hero py-2 duration-200">
     <Link href={`https://github.com/` + org} className="text-2xl font-medium leading-tight tracking-tighter text-white">
      <div className="flex items-center justify-center gap-4 font-blont text-5xl">
       <svg className="animate-rotate" width="64" height="64" viewBox="0 0 167 162" fill="none" xmlns="http://www.w3.org/2000/svg">

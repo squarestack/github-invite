@@ -16,6 +16,9 @@ module.exports = {
    fontFamily: {
     blont: ["Blont", "sans-serif"],
    },
+   backgroundImage: {
+    hero: "radial-gradient(circle, rgb(77 103 255 / 18%) 0%, rgba(0,0,0,1) 52%)",
+   },
   },
  },
  plugins: [require("@headlessui/tailwindcss"), require("@igorkowalczyk/is-browser"), require("@tailwindcss/aspect-ratio")],
