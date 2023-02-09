@@ -25,9 +25,6 @@ export function Container(props) {
     <meta property="og:image" content={meta.image} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@stack_square" />
-    <meta name="twitter:title" content={meta.title} />
-    <meta name="twitter:image" content={meta.image} />
-    <meta name="twitter:description" content={meta.description} />
     <meta name="twitter:creator" content="@stack_square" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
