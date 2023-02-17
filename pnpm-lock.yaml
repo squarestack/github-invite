@@ -19,7 +19,7 @@ specifiers:
   prettier-plugin-tailwindcss: 0.2.2
   react: 18.2.0
   react-dom: 18.2.0
-  tailwindcss: 3.2.6
+  tailwindcss: 3.2.7
   terser-webpack-plugin: 5.3.6
   typescript: 4.9.5
   webpack: 5.75.0
@@ -33,9 +33,9 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
-  '@headlessui/tailwindcss': 0.1.2_tailwindcss@3.2.6
-  '@igorkowalczyk/is-browser': 3.0.0_tailwindcss@3.2.6
-  '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.2.6
+  '@headlessui/tailwindcss': 0.1.2_tailwindcss@3.2.7
+  '@igorkowalczyk/is-browser': 3.0.0_tailwindcss@3.2.7
+  '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.2.7
   autoprefixer: 10.4.13_postcss@8.4.21
   compression-webpack-plugin: 10.0.0_webpack@5.75.0
   eslint: 8.34.0
@@ -45,7 +45,7 @@ devDependencies:
   postcss: 8.4.21
   prettier: 2.8.4
   prettier-plugin-tailwindcss: 0.2.2_prettier@2.8.4
-  tailwindcss: 3.2.6_postcss@8.4.21
+  tailwindcss: 3.2.7_postcss@8.4.21
   terser-webpack-plugin: 5.3.6_webpack@5.75.0
   typescript: 4.9.5
   webpack: 5.75.0
@@ -84,13 +84,13 @@ packages:
       - supports-color
     dev: true
 
-  /@headlessui/tailwindcss/0.1.2_tailwindcss@3.2.6:
+  /@headlessui/tailwindcss/0.1.2_tailwindcss@3.2.7:
     resolution: {integrity: sha512-AQNESz+f1grCxifrocOE6hDMDFqhqY0g3xrSGOS0ocGkmVkssaBzXaAPAPNSs/nHmr4ZUhfl5THQpYrvaouWlQ==}
     engines: {node: '>=10'}
     peerDependencies:
       tailwindcss: ^3.0
     dependencies:
-      tailwindcss: 3.2.6_postcss@8.4.21
+      tailwindcss: 3.2.7_postcss@8.4.21
     dev: true
 
   /@humanwhocodes/config-array/0.11.8:
@@ -113,13 +113,13 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@igorkowalczyk/is-browser/3.0.0_tailwindcss@3.2.6:
+  /@igorkowalczyk/is-browser/3.0.0_tailwindcss@3.2.7:
     resolution: {integrity: sha512-90HHmYxNg4S9zR8COlc56mtFxG8Q5qdPJ1mWmWx2xvtySZdOUnSS/UycvvEDC3bZJiRLvGfzmpsW+DRATDWIkg==}
     engines: {node: '>=10'}
     peerDependencies:
       tailwindcss: 3.0 || 3.2
     dependencies:
-      tailwindcss: 3.2.6_postcss@8.4.21
+      tailwindcss: 3.2.7_postcss@8.4.21
     dev: true
 
   /@jridgewell/gen-mapping/0.3.2:
@@ -459,12 +459,12 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /@tailwindcss/aspect-ratio/0.4.2_tailwindcss@3.2.6:
+  /@tailwindcss/aspect-ratio/0.4.2_tailwindcss@3.2.7:
     resolution: {integrity: sha512-8QPrypskfBa7QIMuKHg2TA7BqES6vhBrDLOv8Unb6FcFyd3TjKbc6lcmb9UPQHxfl24sXoJ41ux/H7qQQvfaSQ==}
     peerDependencies:
       tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
     dependencies:
-      tailwindcss: 3.2.6_postcss@8.4.21
+      tailwindcss: 3.2.7_postcss@8.4.21
     dev: true
 
   /@types/eslint-scope/3.7.4:
@@ -2768,8 +2768,8 @@ packages:
       tslib: 2.4.1
     dev: true
 
-  /tailwindcss/3.2.6_postcss@8.4.21:
-    resolution: {integrity: sha512-BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO+1ov/MJ93ODJ9yluRituIw==}
+  /tailwindcss/3.2.7_postcss@8.4.21:
+    resolution: {integrity: sha512-B6DLqJzc21x7wntlH/GsZwEXTBttVSl1FtCzC8WP4oBc/NKef7kaax5jeihkkCEWc831/5NDJ9gRNDK6NEioQQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
