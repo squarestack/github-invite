@@ -9,8 +9,8 @@
     "start": "next start",
     "deploy": "npm run build && npm run start",
     "lint": "next lint",
-    "format": "prettier --write . --ignore-unknown",
-    "format:check": "prettier --check ."
+    "format": "prettier --write . --ignore-unknown --cache",
+    "format:check": "prettier --check . --cache"
   },
   "browserslist": [
     ">0.3%",
