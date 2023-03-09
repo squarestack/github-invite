@@ -22,7 +22,7 @@ specifiers:
   tailwindcss: 3.2.7
   terser-webpack-plugin: 5.3.6
   typescript: 4.9.5
-  webpack: 5.75.0
+  webpack: 5.76.0
 
 dependencies:
   '@next/font': 13.2.3
@@ -37,18 +37,18 @@ devDependencies:
   '@igorkowalczyk/is-browser': 3.0.0_tailwindcss@3.2.7
   '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.2.7
   autoprefixer: 10.4.13_postcss@8.4.21
-  compression-webpack-plugin: 10.0.0_webpack@5.75.0
+  compression-webpack-plugin: 10.0.0_webpack@5.76.0
   eslint: 8.35.0
   eslint-config-next: 13.2.3_ycpbpc6yetojsgtrx3mwntkhsu
   eslint-config-prettier: 8.7.0_eslint@8.35.0
-  lodash-webpack-plugin: 0.11.6_webpack@5.75.0
+  lodash-webpack-plugin: 0.11.6_webpack@5.76.0
   postcss: 8.4.21
   prettier: 2.8.4
   prettier-plugin-tailwindcss: 0.2.4_prettier@2.8.4
   tailwindcss: 3.2.7_postcss@8.4.21
-  terser-webpack-plugin: 5.3.6_webpack@5.75.0
+  terser-webpack-plugin: 5.3.6_webpack@5.76.0
   typescript: 4.9.5
-  webpack: 5.75.0
+  webpack: 5.76.0
 
 packages:
 
@@ -991,7 +991,7 @@ packages:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
     dev: true
 
-  /compression-webpack-plugin/10.0.0_webpack@5.75.0:
+  /compression-webpack-plugin/10.0.0_webpack@5.76.0:
     resolution: {integrity: sha512-wLXLIBwpul/ALcm7Aj+69X0pYT3BYt6DdPn3qrgBIh9YejV9Bju9ShhlAsjujLyWMo6SAweFIWaUoFmXZNuNrg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -999,7 +999,7 @@ packages:
     dependencies:
       schema-utils: 4.0.0
       serialize-javascript: 6.0.0
-      webpack: 5.75.0
+      webpack: 5.76.0
     dev: true
 
   /concat-map/0.0.1:
@@ -2003,13 +2003,13 @@ packages:
       p-locate: 5.0.0
     dev: true
 
-  /lodash-webpack-plugin/0.11.6_webpack@5.75.0:
+  /lodash-webpack-plugin/0.11.6_webpack@5.76.0:
     resolution: {integrity: sha512-nsHN/+IxZK/C425vGC8pAxkKJ8KQH2+NJnhDul14zYNWr6HJcA95w+oRR7Cp0oZpOdMplDZXmjVROp8prPk7ig==}
     peerDependencies:
       webpack: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.1.0
     dependencies:
       lodash: 4.17.21
-      webpack: 5.75.0
+      webpack: 5.76.0
     dev: true
 
   /lodash.merge/4.6.2:
@@ -2819,7 +2819,7 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /terser-webpack-plugin/5.3.6_webpack@5.75.0:
+  /terser-webpack-plugin/5.3.6_webpack@5.76.0:
     resolution: {integrity: sha512-kfLFk+PoLUQIbLmB1+PZDMRSZS99Mp+/MHqDNmMA6tOItzRt+Npe3E+fsMs5mfcM0wCtrrdU387UnV+vnSffXQ==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -2840,7 +2840,7 @@ packages:
       schema-utils: 3.1.1
       serialize-javascript: 6.0.0
       terser: 5.16.1
-      webpack: 5.75.0
+      webpack: 5.76.0
     dev: true
 
   /terser/5.16.1:
@@ -2971,8 +2971,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /webpack/5.75.0:
-    resolution: {integrity: sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ==}
+  /webpack/5.76.0:
+    resolution: {integrity: sha512-l5sOdYBDunyf72HW8dF23rFtWq/7Zgvt/9ftMof71E/yUb1YLOBmTgA2K4vQthB3kotMrSj609txVE0dnr2fjA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -3002,7 +3002,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.1.1
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.6_webpack@5.75.0
+      terser-webpack-plugin: 5.3.6_webpack@5.76.0
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
