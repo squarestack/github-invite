@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
- font-family: "Blont";
- src: url("../public/fonts/blont.otf");
-}
-
 .spinner {
  vertical-align: -0.15em;
  border: 0.15em solid;

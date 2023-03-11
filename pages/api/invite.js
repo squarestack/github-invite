@@ -1,14 +1,23 @@
 import { Octokit } from "@octokit/rest";
 const regex = /^[a-z\d](?:[a-z\d]|-(?=[a-z\d])){0,38}$/i;
 
-export default async function handler(req, res) {
- if (req.method !== "POST") {
-  return res.status(405).json({ message: "Method not allowed" });
+export default async function handler(request, res) {
+ const { username } = request.body;
+ if (!username) {
+  return res.status(400).json({ message: "Github username is required!" });
  }
- const { username } = req.body;
- if (!username) return res.status(400).json({ message: "Github username is required!" });
- if (username.length >= 39) return res.status(400).json({ message: "Github username is too long!" });
- if (!regex.test(username)) return res.status(400).json({ message: "Github username is invalid!" });
+
+ if (typeof username !== "string") {
+  return res.status(400).json({ message: "Github username must be a string!" });
+ }
+
+ if (username.length >= 39) {
+  return res.status(400).json({ message: "Github username is too long!" });
+ }
+
+ if (!regex.test(username)) {
+  return res.status(400).json({ message: "Github username is invaild!" });
+ }
 
  const client = new Octokit({
   auth: process.env.GITHUB_TOKEN,
@@ -19,10 +28,12 @@ export default async function handler(req, res) {
    org: process.env.ORGANIZATION,
   })
   .then((data) => {
-   if (data.status != 200) return res.status(404).json({ message: "Organization not found!" });
+   if (data.status !== 200) {
+    return res.status(400).json({ message: "Github organization not found!" });
+   }
   })
   .catch(() => {
-   return res.status(500).json({ message: "Internal Server Error!" });
+   return res.status(500).json({ message: "Internal Server Error! Please try again later!" });
   });
 
  await client.users
@@ -30,9 +41,13 @@ export default async function handler(req, res) {
    username,
   })
   .then((data) => {
-   if (data.status != 200) return res.status(404).json({ message: "User not found!" });
+   if (data.status !== 200) {
+    return res.json({ message: "Github user not found!" });
+   }
    const userData = data.data;
-   if (!userData.id) return res.status(404).json({ message: "User not found!" });
+   if (!userData.id) {
+    return res.status(400).json({ message: "Github user not found!" });
+   }
    client.orgs
     .createInvitation({
      org: process.env.ORGANIZATION,
@@ -40,7 +55,8 @@ export default async function handler(req, res) {
      role: "direct_member",
      team_ids: [parseInt(process.env.TEAM_ID)],
     })
-    .then(() => {
+    .then((t) => {
+     console.log(t);
      return res.status(200).json({ message: "Invitation sent!" });
     })
     .catch((error) => {
@@ -49,14 +65,17 @@ export default async function handler(req, res) {
       return res.status(400).json({ message: errorMessage.replaceAll("Invitee", "User") });
      } else {
       const errorMessage = JSON.parse(JSON.stringify(error.response.data.message));
-      console.log(errorMessage.replaceAll("Invitee", "User"));
       return res.status(400).json({ message: errorMessage.replaceAll("Invitee", "User") });
      }
     });
   })
   .catch((error) => {
-   if (error.status == 404) return res.status(404).json({ message: "User not found!" });
-   if (error.response && typeof error.response.data === "object") return res.status(404).json({ message: "User not found!" });
-   return res.status(500).json({ message: "Internal Server Error!" });
+   if (error.status === 404) {
+    return res.status(400).json({ message: "User not found!" });
+   }
+   if (error.response && typeof error.response.data === "object") {
+    return res.status(400).json({ message: "User not found!" });
+   }
+   return res.status(400).json({ message: "User not found!" });
   });
 }

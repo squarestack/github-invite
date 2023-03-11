@@ -1,5 +1,5 @@
 module.exports = {
- content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+ content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
  darkMode: "class",
  theme: {
   extend: {
@@ -17,9 +17,9 @@ module.exports = {
     blont: ["Blont", "sans-serif"],
    },
    backgroundImage: {
-    hero: "radial-gradient(circle, rgb(77 103 255 / 18%) 0%, rgba(0,0,0,1) 52%)",
+    hero: "radial-gradient(circle, rgb(77 103 255 / 22%) 0%, rgba(0,0,0,1) 52%)",
    },
   },
  },
- plugins: [require("@headlessui/tailwindcss"), require("@igorkowalczyk/is-browser"), require("@tailwindcss/aspect-ratio")],
+ plugins: [require("tailwindcss-text-fill"), require("@headlessui/tailwindcss"), require("@igorkowalczyk/is-browser"), require("@tailwindcss/aspect-ratio")],
 };
