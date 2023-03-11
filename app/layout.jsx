@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
    <body className={`bg-main-white dark:bg-main-dark ${inter.className}`}>
     <main className="flex min-h-screen flex-col items-center justify-center overflow-hidden bg-[#070706] bg-hero py-2 antialiased duration-200">
      <>{children}</>
-     <Analytics/>
+     <Analytics />
     </main>
    </body>
   </html>
