@@ -1,5 +1,5 @@
-import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { Inter } from "next/font/google";
 import "../styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -7,11 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
  title: {
   default: "Square Stack",
-  template: `%s | Square Stack`,
+  template: "%s | Square Stack",
  },
  description: "We are building open source projects with strong focus on user privacy. Our goal is to make the Internet more secure. In our applications everything is encrypted - in fact even we don't have access to users' data.",
  image: "https://invite.squarestack.vercel.app/images/og-image.png",
- description: "We are building open source projects with strong focus on user privacy. Our goal is to make the Internet more secure. In our applications everything is encrypted - in fact even we don't have access to users' data.",
+ canonical: "https://invite.squarestack.vercel.app",
  openGraph: {
   title: "Square Stack",
   description: "We are building open source projects with strong focus on user privacy. Our goal is to make the Internet more secure. In our applications everything is encrypted - in fact even we don't have access to users' data.",

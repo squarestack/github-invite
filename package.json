@@ -10,6 +10,7 @@
     "deploy": "pnpm run build && pnpm run start",
     "analyze": "ANALYZE=true pnpm run build",
     "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "format": "prettier --write . --ignore-unknown --cache",
     "format:check": "prettier --check . --cache"
   },
@@ -30,6 +31,8 @@
   },
   "homepage": "https://invite.code2025.vercel.app",
   "dependencies": {
+    "@igorkowalczyk/eslint-config": "1.0.0",
+    "@igorkowalczyk/prettier-config": "1.0.0",
     "@octokit/rest": "19.0.7",
     "@vercel/analytics": "0.1.11",
     "next": "13.2.4",
@@ -43,10 +46,9 @@
     "@next/bundle-analyzer": "13.2.4",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "autoprefixer": "10.4.14",
-    "encoding": "^0.1.13",
+    "encoding": "0.1.13",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
-    "eslint-config-prettier": "8.7.0",
     "postcss": "8.4.21",
     "prettier": "2.8.4",
     "prettier-plugin-tailwindcss": "0.2.4",
