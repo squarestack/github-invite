@@ -4,7 +4,7 @@ specifiers:
   '@headlessui/tailwindcss': 0.1.2
   '@igorkowalczyk/eslint-config': 1.0.0
   '@igorkowalczyk/is-browser': 3.0.0
-  '@igorkowalczyk/prettier-config': 1.0.0
+  '@igorkowalczyk/prettier-config': 1.0.3
   '@next/bundle-analyzer': 13.2.4
   '@octokit/rest': 19.0.7
   '@tailwindcss/aspect-ratio': 0.4.2
@@ -25,7 +25,7 @@ specifiers:
 
 dependencies:
   '@igorkowalczyk/eslint-config': 1.0.0_prettier@2.8.4
-  '@igorkowalczyk/prettier-config': 1.0.0
+  '@igorkowalczyk/prettier-config': 1.0.3
   '@octokit/rest': 19.0.7_encoding@0.1.13
   '@vercel/analytics': 0.1.11_react@18.2.0
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
@@ -140,8 +140,8 @@ packages:
       tailwindcss: 3.2.7_postcss@8.4.21
     dev: true
 
-  /@igorkowalczyk/prettier-config/1.0.0:
-    resolution: {integrity: sha512-VMSmH7wQC5UlgfkOYnFQGLVNyWKAUvLkRWRaAC0S17M4LyW6OHgLQRDs3fhrqRZie/x2bl55wIWlLU9lCOm31Q==}
+  /@igorkowalczyk/prettier-config/1.0.3:
+    resolution: {integrity: sha512-STNkpxGegsCkoi3v/g88OvzDTATONNhF/U/ZzyLLDnDaLTTFg3dil7Ab8rRe5RoLSQhBnLzcXVea6VBGGqArxg==}
     dependencies:
       prettier: 2.8.4
     dev: false
