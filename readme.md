@@ -50,4 +50,4 @@ This project is licensed under the MIT. See the [LICENSE](https://github.com/squ
 
 ## 📃 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](license.md) file for details
