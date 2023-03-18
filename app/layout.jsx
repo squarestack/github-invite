@@ -10,7 +10,7 @@ export const metadata = {
   template: "%s | Square Stack",
  },
  description: "We are building open source projects with strong focus on user privacy. Our goal is to make the Internet more secure. In our applications everything is encrypted - in fact even we don't have access to users' data.",
- image: "https://invite.squarestack.vercel.app/images/og-image.png",
+ image: "https://invite.squarestack.vercel.app/images/og.png",
  canonical: "https://invite.squarestack.vercel.app",
  openGraph: {
   title: "Square Stack",
@@ -19,7 +19,7 @@ export const metadata = {
   siteName: "Square Stack",
   images: [
    {
-    url: "https://invite.squarestack.vercel.app/images/og-image.png",
+    url: "https://invite.squarestack.vercel.app/images/og.png",
     width: 1920,
     height: 942,
    },
