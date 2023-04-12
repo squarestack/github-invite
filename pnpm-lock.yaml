@@ -28,8 +28,8 @@ dependencies:
 
 devDependencies:
   '@headlessui/tailwindcss':
-    specifier: 0.1.2
-    version: 0.1.2(tailwindcss@3.3.1)
+    specifier: 0.1.3
+    version: 0.1.3(tailwindcss@3.3.1)
   '@igorkowalczyk/is-browser':
     specifier: 3.1.0
     version: 3.1.0(tailwindcss@3.3.1)
@@ -109,8 +109,8 @@ packages:
     resolution: {integrity: sha512-IoD2MfUnOV58ghIHCiil01PcohxjbYR/qCxsoC+xNgUwh1EY8jOOrYmu3d3a71+tJJ23uscEV4X2HJWMsPJu4g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  /@headlessui/tailwindcss@0.1.2(tailwindcss@3.3.1):
-    resolution: {integrity: sha512-AQNESz+f1grCxifrocOE6hDMDFqhqY0g3xrSGOS0ocGkmVkssaBzXaAPAPNSs/nHmr4ZUhfl5THQpYrvaouWlQ==}
+  /@headlessui/tailwindcss@0.1.3(tailwindcss@3.3.1):
+    resolution: {integrity: sha512-3aMdDyYZx9A15euRehpppSyQnb2gIw2s/Uccn2ELIoLQ9oDy0+9oRygNWNjXCD5Dt+w1pxo7C+XoiYvGcqA4Kg==}
     engines: {node: '>=10'}
     peerDependencies:
       tailwindcss: ^3.0
