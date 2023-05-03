@@ -34,7 +34,7 @@
     "@igorkowalczyk/eslint-config": "1.2.0",
     "@igorkowalczyk/prettier-config": "1.2.0",
     "@octokit/rest": "19.0.7",
-    "@vercel/analytics": "1.0.0",
+    "@vercel/analytics": "1.0.1",
     "next": "13.3.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
