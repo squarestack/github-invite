@@ -1,5 +1,5 @@
 {
-  "name": "invite",
+  "name": "@just-it/invite",
   "description": "Join our organization in a few clicks",
   "version": "1.0.0",
   "private": true,
@@ -22,14 +22,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/code2025/invite.git"
+    "url": "git+https://github.com/just-that/invite.git"
   },
   "author": "Igor Kowalczyk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/code2025/invite/issues"
+    "url": "https://github.com/just-that/invite/issues"
   },
-  "homepage": "https://invite.code2025.vercel.app",
+  "homepage": "https://just-that.vercel.app",
   "dependencies": {
     "@igorkowalczyk/eslint-config": "1.2.0",
     "@igorkowalczyk/prettier-config": "1.2.0",
