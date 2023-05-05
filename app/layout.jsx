@@ -6,20 +6,20 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
  title: {
-  default: "Square Stack",
-  template: "%s | Square Stack",
+  default: "Just.it",
+  template: "%s | Just.it",
  },
  description: "We are building open source projects with strong focus on user privacy. Our goal is to make the Internet more secure. In our applications everything is encrypted - in fact even we don't have access to users' data.",
- image: "https://invite.squarestack.vercel.app/images/og.png",
- canonical: "https://invite.squarestack.vercel.app",
+ image: "https://just-that.vercel.app/images/og.png",
+ canonical: "https://just-that.vercel.app",
  openGraph: {
   title: "Square Stack",
   description: "We are building open source projects with strong focus on user privacy. Our goal is to make the Internet more secure. In our applications everything is encrypted - in fact even we don't have access to users' data.",
-  url: "https://invite.squarestack.vercel.app",
-  siteName: "Square Stack",
+  url: "https://just-that.vercel.app",
+  siteName: "Just.it",
   images: [
    {
-    url: "https://invite.squarestack.vercel.app/images/og.png",
+    url: "https://just-that.vercel.app/images/og.png",
     width: 1920,
     height: 942,
    },
@@ -39,8 +39,8 @@ export const metadata = {
   },
  },
  twitter: {
-  title: "Square Stack",
-  author: "@stack_square",
+  title: "Just.it",
+  author: "@it_is_just_that",
   card: "summary_large_image",
  },
  icons: {
