@@ -1,17 +1,13 @@
-  <a href="https://github.com/squarestack">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/49127376/208982596-408cc559-abd4-4647-a347-cc7893429983.svg" align="left" style="float: left; margin: 0 10px 0 0;">
-      <img src="https://user-images.githubusercontent.com/49127376/208982601-5de098f2-facc-49ad-bd90-bb37a46e8b5f.svg" align="left" style="float: left; margin: 0 10px 0 0;">
-    </picture>
-  </a>
+  <a href="https://github.com/just-that"><img src="https://user-images.githubusercontent.com/49127376/236443685-175baf83-ac5b-4952-98d2-ff94a538d50d.png" align="left" style="float: left; margin: 0 10px 0 0; width: 150px; height: 150px;"></a>
 
-# Square Stack - Invite
+
+# Just.it - Invite
 
 > Join our organization in a few clicks
 
-[![GitHub License](https://img.shields.io/github/license/squarestack/invite?color=%2334D058&logo=github&style=flat-square&label=License)](https://github.com/squarestack/invite/blob/main/license)
-[![Version](https://img.shields.io/github/v/release/squarestack/invite?color=%2334D058&logo=github&style=flat-square&label=Version)](https://github.com/squarestack/invite/releases)
-[![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/squarestack/invite?color=%2334D058&logo=github&style=flat-square&label=Vulnerabilities)](https://github.com/squarestack/invite)
+[![GitHub License](https://img.shields.io/github/license/just-that/invite?color=%2334D058&logo=github&style=flat-square&label=License)](https://github.com/just-that/invite/blob/main/license)
+[![Version](https://img.shields.io/github/v/release/just-that/invite?color=%2334D058&logo=github&style=flat-square&label=Version)](https://github.com/just-that/invite/releases)
+[![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/just-that/invite?color=%2334D058&logo=github&style=flat-square&label=Vulnerabilities)](https://github.com/just-that/invite)
 <br><br><br>
 
 ---
@@ -34,7 +30,7 @@ TEAM_ID = "GITHUB_TEAM_ID" # optional
 
 ## ⁉️ Issues
 
-If you have any issues with the page please create [new issue here](https://github.com/squarestack/invite/issues)
+If you have any issues with the page please create [new issue here](https://github.com/just-that/invite/issues)
 
 ## 📥 Pull Requests
 
@@ -42,11 +38,11 @@ When submitting a pull request:
 
 - Clone the repo.
 - Create a branch off of master and give it a meaningful name (e.g. my-awesome-new-feature).
-- Open a [pull request](https://github.com/squarestack/invite/pulls) on [GitHub](https://github.com) and describe the feature or fix.
+- Open a [pull request](https://github.com/just-that/invite/pulls) on [GitHub](https://github.com) and describe the feature or fix.
 
 ## 📋 License
 
-This project is licensed under the MIT. See the [LICENSE](https://github.com/squarestack/invite/blob/main/license) file for details
+This project is licensed under the MIT. See the [LICENSE](https://github.com/just-that/invite/blob/main/license) file for details
 
 ## 📃 License
 
