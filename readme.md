@@ -1,6 +1,5 @@
 <a href="https://github.com/just-that"><img src="https://user-images.githubusercontent.com/49127376/236443685-175baf83-ac5b-4952-98d2-ff94a538d50d.png" align="left" style="float: left; margin: 0 10px 0 0; width: 150px; height: 150px;"></a>
 
-
 # Just.it - Invite
 
 > Join our organization in a few clicks

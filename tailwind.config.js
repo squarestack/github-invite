@@ -11,5 +11,5 @@ module.exports = {
    },
   },
  },
- plugins: [ require("@igorkowalczyk/is-browser"), require("@tailwindcss/aspect-ratio")],
+ plugins: [require("@igorkowalczyk/is-browser"), require("@tailwindcss/aspect-ratio")],
 };
