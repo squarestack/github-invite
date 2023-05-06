@@ -6,10 +6,6 @@ const nextConfig = {
  reactStrictMode: true,
  pageExtensions: ["mdx", "md", "jsx", "js"],
  poweredByHeader: false,
- experimental: {
-  appDir: true,
-  fontLoaders: [{ loader: "next/font/google", options: { subsets: ["latin"] } }],
- },
  async headers() {
   return [
    {

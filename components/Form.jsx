@@ -35,10 +35,10 @@ export function Form() {
   } else {
    try {
     const { message } = await res.json();
-    setErrorMessage(message);
+    setErrorMessage(message.replaceAll("Invitee", "User"));
     setSuccess(false);
    } catch (e) {
-    setErrorMessage("Something went wrong!");
+    setErrorMessage("Something went wrong! Please try again later.");
     setSuccess(false);
    }
   }

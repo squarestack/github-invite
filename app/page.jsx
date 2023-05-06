@@ -6,7 +6,7 @@ export const metadata = {
 
 export default function App() {
  return (
-  <div className="relative w-full px-6">
+  <div className="relative w-full px-6 font-inter">
    <div className="z-20 flex w-full flex-col">
     <span className="mx-auto mb-6 rounded-full border border-white/20 bg-white/10 px-9 py-2 font-medium text-white backdrop-blur-sm">From Vision to Reality:</span>
     <h1 className="text-center text-5xl font-extrabold leading-tight tracking-tight text-white">Building the future of the Web</h1>
