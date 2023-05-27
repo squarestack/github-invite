@@ -11,10 +11,10 @@
     "analyze": "ANALYZE=true pnpm run build",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "format": "prettier --write . --ignore-unknown --cache",
+    "format": "prettier --write . --ignore-unknown --cache --plugin=prettier-plugin-tailwindcss",
     "format:check": "prettier --check . --cache"
   },
-  "browserslist": [
+  "browserslist": [     
     ">0.3%",
     "not ie 11",
     "not dead",
