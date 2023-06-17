@@ -12,8 +12,8 @@ dependencies:
     specifier: 1.4.0
     version: 1.4.0(prettier@2.8.8)
   '@octokit/rest':
-    specifier: 19.0.11
-    version: 19.0.11(encoding@0.1.13)
+    specifier: 19.0.13
+    version: 19.0.13(encoding@0.1.13)
   '@vercel/analytics':
     specifier: 1.0.1
     version: 1.0.1
@@ -330,7 +330,7 @@ packages:
       '@octokit/graphql': 5.0.5(encoding@0.1.13)
       '@octokit/request': 6.2.3(encoding@0.1.13)
       '@octokit/request-error': 3.0.3
-      '@octokit/types': 9.2.2
+      '@octokit/types': 9.2.3
       before-after-hook: 2.2.3
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
@@ -355,10 +355,6 @@ packages:
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
       - encoding
-    dev: false
-
-  /@octokit/openapi-types@17.1.2:
-    resolution: {integrity: sha512-OaS7Ol4Y+U50PbejfzQflGWRMxO04nYWO5ZBv6JerqMKE2WS/tI9VoVDDPXHBlRMGG2fOdKwtVGlFfc7AVIstw==}
     dev: false
 
   /@octokit/openapi-types@17.2.0:
@@ -418,8 +414,8 @@ packages:
       - encoding
     dev: false
 
-  /@octokit/rest@19.0.11(encoding@0.1.13):
-    resolution: {integrity: sha512-m2a9VhaP5/tUw8FwfnW2ICXlXpLPIqxtg3XcAiGMLj/Xhw3RSBfZ8le/466ktO1Gcjr8oXudGnHhxV1TXJgFxw==}
+  /@octokit/rest@19.0.13(encoding@0.1.13):
+    resolution: {integrity: sha512-/EzVox5V9gYGdbAI+ovYj3nXQT1TtTHRT+0eZPcuC05UFSWO3mdO9UY1C0i2eLF9Un1ONJkAk+IEtYGAC+TahA==}
     engines: {node: '>= 14'}
     dependencies:
       '@octokit/core': 4.2.1(encoding@0.1.13)
@@ -432,12 +428,6 @@ packages:
 
   /@octokit/tsconfig@1.0.2:
     resolution: {integrity: sha512-I0vDR0rdtP8p2lGMzvsJzbhdOWy405HcGovrspJ8RRibHnyRgggUSNO5AIox5LmqiwmatHKYsvj6VGFHkqS7lA==}
-    dev: false
-
-  /@octokit/types@9.2.2:
-    resolution: {integrity: sha512-9BjDxjgQIvCjNWZsbqyH5QC2Yni16oaE6xL+8SUBMzcYPF4TGQBXGA97Cl3KceK9mwiNMb1mOYCz6FbCCLEL+g==}
-    dependencies:
-      '@octokit/openapi-types': 17.1.2
     dev: false
 
   /@octokit/types@9.2.3:
