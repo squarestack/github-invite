@@ -31,7 +31,7 @@
   },
   "homepage": "https://just-that.vercel.app",
   "dependencies": {
-    "@igorkowalczyk/eslint-config": "1.4.1",
+    "@igorkowalczyk/eslint-config": "1.4.2",
     "@igorkowalczyk/prettier-config": "1.4.2",
     "@octokit/rest": "19.0.13",
     "@vercel/analytics": "1.0.1",
