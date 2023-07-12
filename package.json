@@ -14,7 +14,7 @@
     "format": "prettier --write . --ignore-unknown --cache --plugin=prettier-plugin-tailwindcss",
     "format:check": "prettier --check . --cache"
   },
-  "browserslist": [     
+  "browserslist": [
     ">0.3%",
     "not ie 11",
     "not dead",
@@ -31,8 +31,6 @@
   },
   "homepage": "https://just-that.vercel.app",
   "dependencies": {
-    "@igorkowalczyk/eslint-config": "1.4.2",
-    "@igorkowalczyk/prettier-config": "1.4.2",
     "@octokit/rest": "20.0.1",
     "@vercel/analytics": "1.0.1",
     "next": "13.4.9",
@@ -40,7 +38,9 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@igorkowalczyk/eslint-config": "1.5.3",
     "@igorkowalczyk/is-browser": "5.0.0",
+    "@igorkowalczyk/prettier-config": "1.5.3",
     "@next/bundle-analyzer": "13.4.9",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "autoprefixer": "10.4.14",
@@ -48,8 +48,8 @@
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
     "postcss": "8.4.25",
-    "prettier": "2.8.8",
-    "prettier-plugin-tailwindcss": "0.3.0",
+    "prettier": "3.0.0",
+    "prettier-plugin-tailwindcss": "0.4.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
   },
