@@ -9,10 +9,10 @@
     "start": "next start",
     "deploy": "pnpm run build && pnpm run start",
     "analyze": "ANALYZE=true pnpm run build",
+    "format": "prettier . --write --ignore-unknown --cache --plugin=prettier-plugin-tailwindcss",
+    "format:check": "prettier . --check --cache",
     "lint": "next lint",
-    "lint:fix": "next lint --fix",
-    "format": "prettier --write . --ignore-unknown --cache --plugin=prettier-plugin-tailwindcss",
-    "format:check": "prettier --check . --cache"
+    "lint:fix": "next lint --fix"
   },
   "browserslist": [
     ">0.3%",
