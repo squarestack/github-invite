@@ -38,7 +38,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@igorkowalczyk/eslint-config": "1.5.3",
+    "@igorkowalczyk/eslint-config": "1.5.4",
     "@igorkowalczyk/is-browser": "5.0.0",
     "@igorkowalczyk/prettier-config": "1.5.3",
     "@next/bundle-analyzer": "13.4.12",
