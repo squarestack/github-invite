@@ -27,7 +27,7 @@ devDependencies:
     version: 2.0.3(eslint@8.52.0)(prettier@3.0.3)
   '@igorkowalczyk/is-browser':
     specifier: 5.0.2
-    version: 5.0.2(tailwindcss@3.3.4)
+    version: 5.0.2(tailwindcss@3.3.5)
   '@igorkowalczyk/prettier-config':
     specifier: 2.0.3
     version: 2.0.3(prettier@3.0.3)
@@ -36,7 +36,7 @@ devDependencies:
     version: 13.5.6
   '@tailwindcss/aspect-ratio':
     specifier: 0.4.2
-    version: 0.4.2(tailwindcss@3.3.4)
+    version: 0.4.2(tailwindcss@3.3.5)
   autoprefixer:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.31)
@@ -59,8 +59,8 @@ devDependencies:
     specifier: 0.5.6
     version: 0.5.6(prettier@3.0.3)
   tailwindcss:
-    specifier: 3.3.4
-    version: 3.3.4
+    specifier: 3.3.5
+    version: 3.3.5
   typescript:
     specifier: 5.2.2
     version: 5.2.2
@@ -161,13 +161,13 @@ packages:
       - supports-color
     dev: true
 
-  /@igorkowalczyk/is-browser@5.0.2(tailwindcss@3.3.4):
+  /@igorkowalczyk/is-browser@5.0.2(tailwindcss@3.3.5):
     resolution: {integrity: sha512-ETJp+hw0YI5A4WmdXZLXT2hU7OmhbT+j3Jk3S7Mm6v0HlV/rnDvNLCGvNoOpdQFdBcsLbRXBFibgxdzaMbJkjw==}
     engines: {node: '>=16'}
     peerDependencies:
       tailwindcss: '>=3.0.0'
     dependencies:
-      tailwindcss: 3.3.4
+      tailwindcss: 3.3.5
     dev: true
 
   /@igorkowalczyk/prettier-config@2.0.3(prettier@3.0.3):
@@ -474,12 +474,12 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.3.4):
+  /@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.3.5):
     resolution: {integrity: sha512-8QPrypskfBa7QIMuKHg2TA7BqES6vhBrDLOv8Unb6FcFyd3TjKbc6lcmb9UPQHxfl24sXoJ41ux/H7qQQvfaSQ==}
     peerDependencies:
       tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
     dependencies:
-      tailwindcss: 3.3.4
+      tailwindcss: 3.3.5
     dev: true
 
   /@types/json5@0.0.29:
@@ -1752,7 +1752,7 @@ packages:
     dependencies:
       array-union: 2.1.0
       dir-glob: 3.0.1
-      fast-glob: 3.2.12
+      fast-glob: 3.3.1
       ignore: 5.2.4
       merge2: 1.4.1
       slash: 3.0.0
@@ -2982,8 +2982,8 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /tailwindcss@3.3.4:
-    resolution: {integrity: sha512-JXZNOkggUAc9T5E7nCrimoXHcSf9h3NWFe5sh36CGD/3M5TRLuQeFnQoDsit2uVTqgoOZHLx5rTykLUu16vsMQ==}
+  /tailwindcss@3.3.5:
+    resolution: {integrity: sha512-5SEZU4J7pxZgSkv7FP1zY8i2TIAOooNZ1e/OGtxIEv6GltpoiXUqWvLy89+a10qYTB1N5Ifkuw9lqQkN9sscvA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
