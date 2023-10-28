@@ -33,7 +33,7 @@
   "dependencies": {
     "@octokit/rest": "20.0.2",
     "@vercel/analytics": "1.1.1",
-    "next": "13.5.6",
+    "next": "14.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -41,12 +41,12 @@
     "@igorkowalczyk/eslint-config": "2.0.3",
     "@igorkowalczyk/is-browser": "5.0.2",
     "@igorkowalczyk/prettier-config": "2.0.3",
-    "@next/bundle-analyzer": "13.5.6",
+    "@next/bundle-analyzer": "14.0.0",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "autoprefixer": "10.4.16",
     "encoding": "0.1.13",
     "eslint": "8.52.0",
-    "eslint-config-next": "13.5.6",
+    "eslint-config-next": "14.0.0",
     "postcss": "8.4.31",
     "prettier": "3.0.3",
     "prettier-plugin-tailwindcss": "0.5.6",
