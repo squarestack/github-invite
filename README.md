@@ -11,11 +11,11 @@
 
 ## 🔩 Usage
 
-1. Clone the repository
-2. Install dependencies with `pnpm i`
-3. Create Github Personal Access Token with `admin:org` scope
+1. Clone the repository (`git clone https://github.com/just-that/invite.git`)
+2. Install dependencies with `pnpm i` or `npm i`
+3. Create Github Personal Access Token with `admin:org` scope (see [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token))
 4. Create `.env` file with the following content (see [`.env` file](#-env-file) section)
-5. Run `pnpm deploy` to deploy the app or `pnpm dev` to run it locally
+5. Run `pnpm run deploy` to deploy the app or `pnpm run dev` to run it locally
 
 ## 🗜️ `.env` file
 
