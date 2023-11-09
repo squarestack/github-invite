@@ -1,5 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
-import { GeistSans } from "geist/font";
+import { GeistSans } from "geist/font/sans";
 import "styles/globals.css";
 
 // const inter = Inter({ subsets: ["latin"] });
