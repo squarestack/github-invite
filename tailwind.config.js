@@ -1,4 +1,7 @@
-module.exports = {
+import tailwindIsBrowser from "@igorkowalczyk/is-browser";
+import tailwindAspectRatio from "@tailwindcss/aspect-ratio";
+
+const tailwindConfig = {
  content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
  darkMode: "class",
  theme: {
@@ -8,5 +11,11 @@ module.exports = {
    },
   },
  },
- plugins: [require("@igorkowalczyk/is-browser"), require("@tailwindcss/aspect-ratio")],
+ plugins: [
+  // prettier
+  tailwindAspectRatio,
+  tailwindIsBrowser,
+ ],
 };
+
+export default tailwindConfig;

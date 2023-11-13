@@ -177,7 +177,7 @@ export async function POST(request) {
    role: "direct_member",
    team_ids: [parseInt(process.env.TEAM_ID)],
   })
-  .catch(() => {
+  .catch((_err) => {
    return new NextResponse(
     JSON.stringify({
      error: true,

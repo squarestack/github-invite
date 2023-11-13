@@ -7,3 +7,9 @@
  border: 0.15em solid;
  border-right-color: transparent;
 }
+
+[data-sonner-toaster][data-theme="dark"] {
+ --normal-bg: rgb(22, 22, 23) !important;
+ --normal-border: rgb(38, 38, 38) !important;
+ --normal-text: rgb(255, 255, 255) !important;
+}
