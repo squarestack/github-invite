@@ -5,7 +5,6 @@
 > Join our organization in a few clicks
 
 [![GitHub License](https://img.shields.io/github/license/just-that/invite?color=%2334D058&logo=github&style=flat-square&label=License)](https://github.com/just-that/invite/blob/main/license)
-[![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/just-that/invite?color=%2334D058&logo=github&style=flat-square&label=Vulnerabilities)](https://github.com/just-that/invite)
 
 ---
 
@@ -14,7 +13,7 @@
 1. Clone the repository (`git clone https://github.com/just-that/invite.git`)
 2. Install dependencies with `pnpm i` or `npm i`
 3. Create Github Personal Access Token with `admin:org` scope (see [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token))
-4. Create `.env` file with the following content (see [`.env` file](#-env-file) section)
+4. Copy `.env.example` to `.env` and fill it with your data (see [`.env` file](#-env-file) section)
 5. Run `pnpm run deploy` to deploy the app or `pnpm run dev` to run it locally
 
 ## 🗜️ `.env` file
@@ -24,6 +23,9 @@ ORGANIZATION = "GITHUB_ORG" # Organization name
 GITHUB_TOKEN = "GITHUB_PAT" # Personal Access Token
 TEAM_ID = "GITHUB_TEAM_ID" # optional
 ```
+
+> [!NOTE]
+> You can get your team id by going to `https://api.github.com/orgs/{ORGANIZATION}/teams` and finding your team (requires authentication), read more [here](https://docs.github.com/en/rest/reference/teams#list-teams)
 
 ## ⁉️ Issues
 
