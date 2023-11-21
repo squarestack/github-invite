@@ -24,8 +24,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   sonner:
-    specifier: 1.2.1
-    version: 1.2.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: 1.2.2
+    version: 1.2.2(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
   '@igorkowalczyk/eslint-config':
@@ -2701,8 +2701,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /sonner@1.2.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-YTW7SCURez/+jTUkgIIIbsbcz6YRVTO4hs5QGlPygEVDUs/pK6Yn52OADpzucF4aDWVZuY6zo9L5GIvAfBqqOw==}
+  /sonner@1.2.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-EHxYBr5tLDQW4CqosTsX95/Qd5oxjDeQN/EbKBZcjdNp4Hjs6snXB6Lmu1kTL27M3su0oG9DxkllfvX+aSoI4Q==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
