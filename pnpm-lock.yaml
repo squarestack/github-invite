@@ -33,7 +33,7 @@ devDependencies:
     version: 2.0.3(eslint@8.55.0)(prettier@3.1.0)
   '@igorkowalczyk/is-browser':
     specifier: 5.0.2
-    version: 5.0.2(tailwindcss@3.3.5)
+    version: 5.0.2(tailwindcss@3.3.6)
   '@igorkowalczyk/prettier-config':
     specifier: 2.0.3
     version: 2.0.3(prettier@3.1.0)
@@ -42,7 +42,7 @@ devDependencies:
     version: 14.0.3
   '@tailwindcss/aspect-ratio':
     specifier: 0.4.2
-    version: 0.4.2(tailwindcss@3.3.5)
+    version: 0.4.2(tailwindcss@3.3.6)
   autoprefixer:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.32)
@@ -65,8 +65,8 @@ devDependencies:
     specifier: 0.5.7
     version: 0.5.7(prettier@3.1.0)
   tailwindcss:
-    specifier: 3.3.5
-    version: 3.3.5
+    specifier: 3.3.6
+    version: 3.3.6
   typescript:
     specifier: 5.3.2
     version: 5.3.2
@@ -172,13 +172,13 @@ packages:
       - supports-color
     dev: true
 
-  /@igorkowalczyk/is-browser@5.0.2(tailwindcss@3.3.5):
+  /@igorkowalczyk/is-browser@5.0.2(tailwindcss@3.3.6):
     resolution: {integrity: sha512-ETJp+hw0YI5A4WmdXZLXT2hU7OmhbT+j3Jk3S7Mm6v0HlV/rnDvNLCGvNoOpdQFdBcsLbRXBFibgxdzaMbJkjw==}
     engines: {node: '>=16'}
     peerDependencies:
       tailwindcss: '>=3.0.0'
     dependencies:
-      tailwindcss: 3.3.5
+      tailwindcss: 3.3.6
     dev: true
 
   /@igorkowalczyk/prettier-config@2.0.3(prettier@3.1.0):
@@ -485,12 +485,12 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.3.5):
+  /@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.3.6):
     resolution: {integrity: sha512-8QPrypskfBa7QIMuKHg2TA7BqES6vhBrDLOv8Unb6FcFyd3TjKbc6lcmb9UPQHxfl24sXoJ41ux/H7qQQvfaSQ==}
     peerDependencies:
       tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
     dependencies:
-      tailwindcss: 3.3.5
+      tailwindcss: 3.3.6
     dev: true
 
   /@types/json5@0.0.29:
@@ -2850,8 +2850,8 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /tailwindcss@3.3.5:
-    resolution: {integrity: sha512-5SEZU4J7pxZgSkv7FP1zY8i2TIAOooNZ1e/OGtxIEv6GltpoiXUqWvLy89+a10qYTB1N5Ifkuw9lqQkN9sscvA==}
+  /tailwindcss@3.3.6:
+    resolution: {integrity: sha512-AKjF7qbbLvLaPieoKeTjG1+FyNZT6KaJMJPFeQyLfIp7l82ggH1fbHJSsYIvnbTFQOlkh+gBYpyby5GT1LIdLw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
