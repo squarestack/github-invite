@@ -1,5 +1,5 @@
 {
-  "name": "@just-it/invite",
+  "name": "@squarestack/github-invite",
   "description": "Join our organization in a few clicks",
   "version": "1.0.0",
   "private": true,
@@ -22,12 +22,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/just-that/invite.git"
+    "url": "git+https://github.com/squarestack/github-invite.git"
   },
   "author": "Igor Kowalczyk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/just-that/invite/issues"
+    "url": "https://github.com/squarestack/github-invite/issues"
   },
   "homepage": "https://just-that.vercel.app",
   "dependencies": {
