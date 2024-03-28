@@ -33,7 +33,7 @@ devDependencies:
     version: 2.2.0(eslint@8.57.0)(prettier@3.2.5)
   '@igorkowalczyk/is-browser':
     specifier: 5.0.2
-    version: 5.0.2(tailwindcss@3.4.1)
+    version: 5.0.2(tailwindcss@3.4.3)
   '@igorkowalczyk/prettier-config':
     specifier: 2.2.0
     version: 2.2.0(prettier@3.2.5)
@@ -42,7 +42,7 @@ devDependencies:
     version: 14.1.4
   '@tailwindcss/aspect-ratio':
     specifier: 0.4.2
-    version: 0.4.2(tailwindcss@3.4.1)
+    version: 0.4.2(tailwindcss@3.4.3)
   autoprefixer:
     specifier: 10.4.19
     version: 10.4.19(postcss@8.4.38)
@@ -65,8 +65,8 @@ devDependencies:
     specifier: 0.5.13
     version: 0.5.13(prettier@3.2.5)
   tailwindcss:
-    specifier: 3.4.1
-    version: 3.4.1
+    specifier: 3.4.3
+    version: 3.4.3
   typescript:
     specifier: 5.4.3
     version: 5.4.3
@@ -177,13 +177,13 @@ packages:
       - supports-color
     dev: true
 
-  /@igorkowalczyk/is-browser@5.0.2(tailwindcss@3.4.1):
+  /@igorkowalczyk/is-browser@5.0.2(tailwindcss@3.4.3):
     resolution: {integrity: sha512-ETJp+hw0YI5A4WmdXZLXT2hU7OmhbT+j3Jk3S7Mm6v0HlV/rnDvNLCGvNoOpdQFdBcsLbRXBFibgxdzaMbJkjw==}
     engines: {node: '>=16'}
     peerDependencies:
       tailwindcss: '>=3.0.0'
     dependencies:
-      tailwindcss: 3.4.1
+      tailwindcss: 3.4.3
     dev: true
 
   /@igorkowalczyk/prettier-config@2.2.0(prettier@3.2.5):
@@ -509,12 +509,12 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.4.1):
+  /@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.4.3):
     resolution: {integrity: sha512-8QPrypskfBa7QIMuKHg2TA7BqES6vhBrDLOv8Unb6FcFyd3TjKbc6lcmb9UPQHxfl24sXoJ41ux/H7qQQvfaSQ==}
     peerDependencies:
       tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
     dependencies:
-      tailwindcss: 3.4.1
+      tailwindcss: 3.4.3
     dev: true
 
   /@types/json5@0.0.29:
@@ -2065,8 +2065,8 @@ packages:
       '@pkgjs/parseargs': 0.11.0
     dev: true
 
-  /jiti@1.20.0:
-    resolution: {integrity: sha512-3TV69ZbrvV6U5DfQimop50jE9Dl6J8O1ja1dvBbMba/sZ3YBEQqJ2VZRoQPVnhlzjNtU1vaXRZVrVjU4qtm8yA==}
+  /jiti@1.21.0:
+    resolution: {integrity: sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==}
     hasBin: true
     dev: true
 
@@ -2983,8 +2983,8 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /tailwindcss@3.4.1:
-    resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}
+  /tailwindcss@3.4.3:
+    resolution: {integrity: sha512-U7sxQk/n397Bmx4JHbJx/iSOOv5G+II3f1kpLpY2QeUv5DcPdcTsYLlusZfq1NthHS1c1cZoyFmmkex1rzke0A==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -2996,7 +2996,7 @@ packages:
       fast-glob: 3.3.1
       glob-parent: 6.0.2
       is-glob: 4.0.3
-      jiti: 1.20.0
+      jiti: 1.21.0
       lilconfig: 2.1.0
       micromatch: 4.0.5
       normalize-path: 3.0.0
