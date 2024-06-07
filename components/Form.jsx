@@ -65,7 +65,7 @@ export function Form() {
   <form onSubmit={handleSubmit}>
    <label htmlFor="input" className="flex justify-center">
     <span className="sr-only">Github Username</span>
-    <input id="input" type="name" autoFocus className={`${isInvalid ? "border-red-400 bg-red-400/10 text-red-400 placeholder:!text-red-400" : "border-white/20 "} rounded-lg border bg-white/10 px-4 py-2 text-white outline-none duration-200 placeholder:text-white motion-reduce:transition-none`} placeholder="Enter your Github username" onChange={changeText} />
+    <input id="input" type="name" autoFocus className={`${isInvalid ? "border-red-400 bg-red-400/10 text-red-400 placeholder:!text-red-400" : "border-white/20"} rounded-lg border bg-white/10 px-4 py-2 text-white outline-none duration-200 placeholder:text-white motion-reduce:transition-none`} placeholder="Enter your Github username" onChange={changeText} />
     <button className="!focus:bg-white ml-2 flex items-center justify-center rounded-lg border border-white/20 bg-white/10 px-4 py-2 text-white outline-none duration-200 hover:bg-white/20 disabled:cursor-not-allowed disabled:opacity-60 motion-reduce:transition-none" disabled={loading || isInvalid || !input || input.length < 3}>
      {loading ? (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="inline-block h-6 w-6 animate-spin text-white">
