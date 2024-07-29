@@ -19,9 +19,9 @@ export default function App() {
      <Form />
     </div>
    </div>
-   <div className="absolute left-0 right-0 z-0 flex">
-    <div className="relative z-0 aspect-1 h-[48%] w-[48%] rounded-full bg-purple-600 opacity-30 blur-[85px] filter sm:blur-[150px] md:blur-[200px] lg:blur-[250px]" />
-    <div className="relative z-10 ml-auto aspect-1 h-[40.8%] w-[40.8%] rounded-full bg-purple-400 opacity-30 blur-[55px] filter sm:blur-[60px] md:blur-[110px] lg:blur-[160px]" />
+   <div className="absolute inset-x-0 z-0 flex">
+    <div className="relative z-0 aspect-1 size-[48%] rounded-full bg-purple-600 opacity-30 blur-[85px] sm:blur-[150px] md:blur-[200px] lg:blur-[250px]" />
+    <div className="relative z-10 ml-auto aspect-1 size-[40.8%] rounded-full bg-purple-400 opacity-30 blur-[55px] sm:blur-[60px] md:blur-[110px] lg:blur-[160px]" />
    </div>
   </div>
  );

@@ -11,8 +11,8 @@
     "analyze": "ANALYZE=true pnpm run build",
     "format": "prettier . --write --ignore-unknown --cache --plugin=prettier-plugin-tailwindcss",
     "format:check": "prettier . --check --cache",
-    "lint": "next lint",
-    "lint:fix": "next lint --fix"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "browserslist": [
     ">0.3%",
@@ -40,14 +40,14 @@
     "sonner": "1.5.0"
   },
   "devDependencies": {
-    "@igorkowalczyk/eslint-config": "2.2.0",
+    "@igorkowalczyk/eslint-config": "3.0.0-beta.8",
+    "@igorkowalczyk/prettier-config": "3.0.0-beta.8",
     "@igorkowalczyk/is-browser": "5.0.4",
-    "@igorkowalczyk/prettier-config": "2.2.0",
     "@next/bundle-analyzer": "14.2.5",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "autoprefixer": "10.4.19",
     "encoding": "0.1.13",
-    "eslint": "8.57.0",
+    "eslint": "9.6.0",
     "eslint-config-next": "14.2.5",
     "postcss": "8.4.40",
     "prettier": "3.3.3",
@@ -57,5 +57,6 @@
   },
   "peerDependencies": {
     "typescript": "5.5.4"
-  }
+  },
+  "packageManager": "pnpm@9.6.0"
 }

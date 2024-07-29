@@ -8,7 +8,7 @@ const nextConfig = {
  reactStrictMode: true,
  pageExtensions: ["mdx", "md", "jsx", "js"],
  poweredByHeader: false,
- async headers() {
+ headers() {
   return [
    {
     source: "/(.*)",
