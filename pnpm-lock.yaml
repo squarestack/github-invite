@@ -31,8 +31,8 @@ importers:
         version: 1.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@igorkowalczyk/eslint-config':
-        specifier: 3.0.0-beta.9
-        version: 3.0.0-beta.9(@types/eslint@9.6.0)(eslint@9.8.0)(prettier@3.3.3)(tailwindcss@3.4.7)(typescript@5.5.4)
+        specifier: 3.0.0-beta.11
+        version: 3.0.0-beta.11(@types/eslint@9.6.0)(eslint@9.8.0)(prettier@3.3.3)(tailwindcss@3.4.7)(typescript@5.5.4)
       '@igorkowalczyk/is-browser':
         specifier: 5.0.4
         version: 5.0.4(tailwindcss@3.4.7)
@@ -163,8 +163,8 @@ packages:
     resolution: {integrity: sha512-d2CGZR2o7fS6sWB7DG/3a95bGKQyHMACZ5aW8qGkkqQpUoZV6C0X7Pc7l4ZNMZkfNBf4VWNe9E1jRsf0G146Ew==}
     engines: {node: '>=18.18'}
 
-  '@igorkowalczyk/eslint-config@3.0.0-beta.9':
-    resolution: {integrity: sha512-w0iCQCLCV1n6Mgd801Oku2auuy1FOgJd8Yj544xFVsNHPc4HAvBXCnL88ojt6KRaRoBv5UzC4AhwLDtuSuUD5g==}
+  '@igorkowalczyk/eslint-config@3.0.0-beta.11':
+    resolution: {integrity: sha512-2g5TA+IJWj0Ti5DxjTsXF/Ont3aY0ZxozqO2kYCfPM03olPVM7ziYk8rQAlF3qukqiAYVYmZpsT/U0n655Lg5g==}
     peerDependencies:
       eslint: ^9
 
@@ -778,10 +778,6 @@ packages:
 
   deep-is@0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
-
-  define-data-property@1.1.0:
-    resolution: {integrity: sha512-UzGwzcjyv3OtAvolTj1GoyNYzfFR+iqbGjcnBEENZVCpM4/Ng1yhGNvS3lR/xDS74Tb2wGG9WzNSNIOS9UVb2g==}
-    engines: {node: '>= 0.4'}
 
   define-data-property@1.1.4:
     resolution: {integrity: sha512-rBMvIzlpA8v6E+SJZoo++HAYqsLrkg7MSfIinMPFhmkorw7X+dOXVJQs+QT69zGkzMyfDnIMN2Wid1+NbL3T+A==}
@@ -2021,10 +2017,6 @@ packages:
     resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
     engines: {node: '>= 0.4'}
 
-  set-function-name@2.0.1:
-    resolution: {integrity: sha512-tMNCiqYVkXIZgc2Hnoy2IvC/f8ezc5koaRFkCjrpWzGpCd3qbZXPzVy9MAZzK1ch/X0jvSkojys3oqJN0qCmdA==}
-    engines: {node: '>= 0.4'}
-
   set-function-name@2.0.2:
     resolution: {integrity: sha512-7PGFlmtwsEADb0WYyvCMa1t+yke6daIG4Wirafur5kcf+MhUnPms1UeR0CKQdTZD81yESwMHbtn+TR+dMviakQ==}
     engines: {node: '>= 0.4'}
@@ -2537,7 +2529,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.3.0': {}
 
-  '@igorkowalczyk/eslint-config@3.0.0-beta.9(@types/eslint@9.6.0)(eslint@9.8.0)(prettier@3.3.3)(tailwindcss@3.4.7)(typescript@5.5.4)':
+  '@igorkowalczyk/eslint-config@3.0.0-beta.11(@types/eslint@9.6.0)(eslint@9.8.0)(prettier@3.3.3)(tailwindcss@3.4.7)(typescript@5.5.4)':
     dependencies:
       '@eslint-react/eslint-plugin': 1.7.0(eslint@9.8.0)(typescript@5.5.4)
       '@eslint/compat': 1.1.1
@@ -2978,7 +2970,7 @@ snapshots:
   array-buffer-byte-length@1.0.0:
     dependencies:
       call-bind: 1.0.7
-      is-array-buffer: 3.0.2
+      is-array-buffer: 3.0.4
 
   array-buffer-byte-length@1.0.1:
     dependencies:
@@ -3030,10 +3022,10 @@ snapshots:
 
   array.prototype.flatmap@1.3.2:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.7
       define-properties: 1.2.1
-      es-abstract: 1.22.1
-      es-shim-unscopables: 1.0.0
+      es-abstract: 1.23.3
+      es-shim-unscopables: 1.0.2
 
   array.prototype.tosorted@1.1.1:
     dependencies:
@@ -3053,12 +3045,12 @@ snapshots:
 
   arraybuffer.prototype.slice@1.0.1:
     dependencies:
-      array-buffer-byte-length: 1.0.0
+      array-buffer-byte-length: 1.0.1
       call-bind: 1.0.7
       define-properties: 1.2.1
       get-intrinsic: 1.2.4
-      is-array-buffer: 3.0.2
-      is-shared-array-buffer: 1.0.2
+      is-array-buffer: 3.0.4
+      is-shared-array-buffer: 1.0.3
 
   arraybuffer.prototype.slice@1.0.3:
     dependencies:
@@ -3160,7 +3152,7 @@ snapshots:
   call-bind@1.0.2:
     dependencies:
       function-bind: 1.1.2
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.4
 
   call-bind@1.0.7:
     dependencies:
@@ -3251,27 +3243,21 @@ snapshots:
       es-get-iterator: 1.1.3
       get-intrinsic: 1.2.4
       is-arguments: 1.1.1
-      is-array-buffer: 3.0.2
+      is-array-buffer: 3.0.4
       is-date-object: 1.0.5
       is-regex: 1.1.4
-      is-shared-array-buffer: 1.0.2
+      is-shared-array-buffer: 1.0.3
       isarray: 2.0.5
       object-is: 1.1.5
       object-keys: 1.1.1
       object.assign: 4.1.5
-      regexp.prototype.flags: 1.5.0
-      side-channel: 1.0.4
+      regexp.prototype.flags: 1.5.2
+      side-channel: 1.0.6
       which-boxed-primitive: 1.0.2
       which-collection: 1.0.1
-      which-typed-array: 1.1.11
+      which-typed-array: 1.1.15
 
   deep-is@0.1.4: {}
-
-  define-data-property@1.1.0:
-    dependencies:
-      get-intrinsic: 1.2.4
-      gopd: 1.0.1
-      has-property-descriptors: 1.0.2
 
   define-data-property@1.1.4:
     dependencies:
@@ -3283,8 +3269,8 @@ snapshots:
 
   define-properties@1.2.1:
     dependencies:
-      define-data-property: 1.1.0
-      has-property-descriptors: 1.0.0
+      define-data-property: 1.1.4
+      has-property-descriptors: 1.0.2
       object-keys: 1.1.1
 
   didyoumean@1.2.2: {}
@@ -3334,11 +3320,11 @@ snapshots:
       array-buffer-byte-length: 1.0.0
       arraybuffer.prototype.slice: 1.0.1
       available-typed-arrays: 1.0.5
-      call-bind: 1.0.2
+      call-bind: 1.0.7
       es-set-tostringtag: 2.0.1
       es-to-primitive: 1.2.1
       function.prototype.name: 1.1.5
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.4
       get-symbol-description: 1.0.0
       globalthis: 1.0.3
       gopd: 1.0.1
@@ -3346,7 +3332,7 @@ snapshots:
       has-property-descriptors: 1.0.0
       has-proto: 1.0.1
       has-symbols: 1.0.3
-      internal-slot: 1.0.5
+      internal-slot: 1.0.7
       is-array-buffer: 3.0.2
       is-callable: 1.2.7
       is-negative-zero: 2.0.2
@@ -3358,7 +3344,7 @@ snapshots:
       object-inspect: 1.12.3
       object-keys: 1.1.1
       object.assign: 4.1.4
-      regexp.prototype.flags: 1.5.0
+      regexp.prototype.flags: 1.5.2
       safe-array-concat: 1.0.1
       safe-regex-test: 1.0.3
       string.prototype.trim: 1.2.7
@@ -3478,7 +3464,7 @@ snapshots:
 
   es-set-tostringtag@2.0.1:
     dependencies:
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.4
       has: 1.0.3
       has-tostringtag: 1.0.0
 
@@ -3524,7 +3510,7 @@ snapshots:
       eslint: 9.8.0
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.5.3(eslint-plugin-import@2.29.0(@typescript-eslint/parser@7.18.0(eslint@9.8.0)(typescript@5.5.4))(eslint@9.8.0))(eslint@9.8.0)
-      eslint-plugin-import: 2.29.0(@typescript-eslint/parser@5.54.1(eslint@9.8.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.5.3)(eslint@9.8.0)
+      eslint-plugin-import: 2.29.0(@typescript-eslint/parser@5.54.1(eslint@9.8.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.5.3(eslint-plugin-import@2.29.0(@typescript-eslint/parser@7.18.0(eslint@9.8.0)(typescript@5.5.4))(eslint@9.8.0))(eslint@9.8.0))(eslint@9.8.0)
       eslint-plugin-jsx-a11y: 6.7.1(eslint@9.8.0)
       eslint-plugin-react: 7.33.2(eslint@9.8.0)
       eslint-plugin-react-hooks: 5.0.0-canary-7118f5dd7-20230705(eslint@9.8.0)
@@ -3556,7 +3542,7 @@ snapshots:
       debug: 4.3.4
       enhanced-resolve: 5.12.0
       eslint: 9.8.0
-      eslint-plugin-import: 2.29.0(@typescript-eslint/parser@5.54.1(eslint@9.8.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.5.3)(eslint@9.8.0)
+      eslint-plugin-import: 2.29.0(@typescript-eslint/parser@5.54.1(eslint@9.8.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.5.3(eslint-plugin-import@2.29.0(@typescript-eslint/parser@7.18.0(eslint@9.8.0)(typescript@5.5.4))(eslint@9.8.0))(eslint@9.8.0))(eslint@9.8.0)
       get-tsconfig: 4.4.0
       globby: 13.1.3
       is-core-module: 2.13.1
@@ -3615,7 +3601,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-import@2.29.0(@typescript-eslint/parser@5.54.1(eslint@9.8.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.5.3)(eslint@9.8.0):
+  eslint-plugin-import@2.29.0(@typescript-eslint/parser@5.54.1(eslint@9.8.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.5.3(eslint-plugin-import@2.29.0(@typescript-eslint/parser@7.18.0(eslint@9.8.0)(typescript@5.5.4))(eslint@9.8.0))(eslint@9.8.0))(eslint@9.8.0):
     dependencies:
       array-includes: 3.1.7
       array.prototype.findlastindex: 1.2.3
@@ -4105,7 +4091,7 @@ snapshots:
 
   has-property-descriptors@1.0.0:
     dependencies:
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.4
 
   has-property-descriptors@1.0.2:
     dependencies:
@@ -4161,9 +4147,9 @@ snapshots:
 
   internal-slot@1.0.5:
     dependencies:
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.4
       has: 1.0.3
-      side-channel: 1.0.4
+      side-channel: 1.0.6
 
   internal-slot@1.0.7:
     dependencies:
@@ -4180,7 +4166,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
       get-intrinsic: 1.2.4
-      is-typed-array: 1.1.10
+      is-typed-array: 1.1.13
 
   is-array-buffer@3.0.4:
     dependencies:
@@ -4279,7 +4265,7 @@ snapshots:
 
   is-string@1.0.7:
     dependencies:
-      has-tostringtag: 1.0.0
+      has-tostringtag: 1.0.2
 
   is-symbol@1.0.4:
     dependencies:
@@ -4287,7 +4273,7 @@ snapshots:
 
   is-typed-array@1.1.10:
     dependencies:
-      available-typed-arrays: 1.0.5
+      available-typed-arrays: 1.0.7
       call-bind: 1.0.7
       for-each: 0.3.3
       gopd: 1.0.1
@@ -4319,10 +4305,10 @@ snapshots:
   iterator.prototype@1.1.2:
     dependencies:
       define-properties: 1.2.1
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.4
       has-symbols: 1.0.3
       reflect.getprototypeof: 1.0.4
-      set-function-name: 2.0.1
+      set-function-name: 2.0.2
 
   jackspeak@2.3.6:
     dependencies:
@@ -4350,7 +4336,7 @@ snapshots:
 
   jsx-ast-utils@3.3.3:
     dependencies:
-      array-includes: 3.1.7
+      array-includes: 3.1.8
       object.assign: 4.1.4
 
   jsx-ast-utils@3.3.5:
@@ -4478,7 +4464,7 @@ snapshots:
 
   object.assign@4.1.4:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.7
       define-properties: 1.2.1
       has-symbols: 1.0.3
       object-keys: 1.1.1
@@ -4703,7 +4689,7 @@ snapshots:
 
   regexp.prototype.flags@1.5.0:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.7
       define-properties: 1.2.1
       functions-have-names: 1.2.3
 
@@ -4748,8 +4734,8 @@ snapshots:
 
   safe-array-concat@1.0.1:
     dependencies:
-      call-bind: 1.0.2
-      get-intrinsic: 1.2.1
+      call-bind: 1.0.7
+      get-intrinsic: 1.2.4
       has-symbols: 1.0.3
       isarray: 2.0.5
 
@@ -4787,12 +4773,6 @@ snapshots:
       gopd: 1.0.1
       has-property-descriptors: 1.0.2
 
-  set-function-name@2.0.1:
-    dependencies:
-      define-data-property: 1.1.0
-      functions-have-names: 1.2.3
-      has-property-descriptors: 1.0.2
-
   set-function-name@2.0.2:
     dependencies:
       define-data-property: 1.1.4
@@ -4810,8 +4790,8 @@ snapshots:
 
   side-channel@1.0.4:
     dependencies:
-      call-bind: 1.0.2
-      get-intrinsic: 1.2.1
+      call-bind: 1.0.7
+      get-intrinsic: 1.2.4
       object-inspect: 1.12.3
 
   side-channel@1.0.6:
@@ -4971,7 +4951,7 @@ snapshots:
   synckit@0.8.5:
     dependencies:
       '@pkgr/utils': 2.3.1
-      tslib: 2.5.0
+      tslib: 2.6.3
 
   synckit@0.9.1:
     dependencies:
@@ -5069,7 +5049,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
       get-intrinsic: 1.2.4
-      is-typed-array: 1.1.10
+      is-typed-array: 1.1.13
 
   typed-array-buffer@1.0.2:
     dependencies:
@@ -5082,7 +5062,7 @@ snapshots:
       call-bind: 1.0.7
       for-each: 0.3.3
       has-proto: 1.0.3
-      is-typed-array: 1.1.10
+      is-typed-array: 1.1.13
 
   typed-array-byte-length@1.0.1:
     dependencies:
@@ -5094,11 +5074,11 @@ snapshots:
 
   typed-array-byte-offset@1.0.0:
     dependencies:
-      available-typed-arrays: 1.0.5
+      available-typed-arrays: 1.0.7
       call-bind: 1.0.7
       for-each: 0.3.3
       has-proto: 1.0.3
-      is-typed-array: 1.1.10
+      is-typed-array: 1.1.13
 
   typed-array-byte-offset@1.0.2:
     dependencies:
@@ -5113,7 +5093,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
       for-each: 0.3.3
-      is-typed-array: 1.1.10
+      is-typed-array: 1.1.13
 
   typed-array-length@1.0.6:
     dependencies:
@@ -5209,7 +5189,7 @@ snapshots:
 
   which-typed-array@1.1.11:
     dependencies:
-      available-typed-arrays: 1.0.5
+      available-typed-arrays: 1.0.7
       call-bind: 1.0.7
       for-each: 0.3.3
       gopd: 1.0.1
