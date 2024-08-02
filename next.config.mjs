@@ -8,6 +8,9 @@ const nextConfig = {
  reactStrictMode: true,
  pageExtensions: ["mdx", "md", "jsx", "js"],
  poweredByHeader: false,
+ eslint: {
+  ignoreDuringBuilds: true,
+ },
  headers() {
   return [
    {
