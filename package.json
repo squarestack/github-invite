@@ -45,7 +45,7 @@
     "@igorkowalczyk/is-browser": "5.0.4",
     "@next/bundle-analyzer": "14.2.5",
     "@tailwindcss/aspect-ratio": "0.4.2",
-    "autoprefixer": "10.4.19",
+    "autoprefixer": "10.4.20",
     "encoding": "0.1.13",
     "eslint": "9.8.0",
     "postcss": "8.4.40",
