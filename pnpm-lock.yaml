@@ -37,8 +37,8 @@ importers:
         specifier: 5.0.4
         version: 5.0.4(tailwindcss@3.4.15)
       '@igorkowalczyk/prettier-config':
-        specifier: 3.0.0-beta.15
-        version: 3.0.0-beta.15(prettier@3.3.3)(tslib@2.6.3)(typescript@5.6.3)
+        specifier: 3.0.0-beta.16
+        version: 3.0.0-beta.16(prettier@3.3.3)(tslib@2.6.3)(typescript@5.6.3)
       '@next/bundle-analyzer':
         specifier: 15.0.3
         version: 15.0.3
@@ -201,8 +201,8 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0'
 
-  '@igorkowalczyk/prettier-config@3.0.0-beta.15':
-    resolution: {integrity: sha512-NHoP1xXFJkBffFMC19kO6zarlCHi1H60yy91zXUNZLtpLALLaPV6VciAS9GoC2rDk4UtgCm0jTHQbR9UFlkDoQ==}
+  '@igorkowalczyk/prettier-config@3.0.0-beta.16':
+    resolution: {integrity: sha512-z4qNrLTbkXXOpOQsufAoAwkaY59MJSpw8li6hEH7vG+/caSBuLm3pa3u/swA53vVa7v1rOhDDcEPZZEw/0FYBw==}
     peerDependencies:
       prettier: ^3
 
@@ -2479,7 +2479,7 @@ snapshots:
     dependencies:
       tailwindcss: 3.4.15
 
-  '@igorkowalczyk/prettier-config@3.0.0-beta.15(prettier@3.3.3)(tslib@2.6.3)(typescript@5.6.3)':
+  '@igorkowalczyk/prettier-config@3.0.0-beta.16(prettier@3.3.3)(tslib@2.6.3)(typescript@5.6.3)':
     dependencies:
       '@rollup/plugin-commonjs': 28.0.1
       '@rollup/plugin-typescript': 12.1.1(tslib@2.6.3)(typescript@5.6.3)
