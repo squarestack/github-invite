@@ -55,7 +55,7 @@ export async function POST(request) {
   return new NextResponse(
    JSON.stringify({
     error: true,
-    message: "Github username is invaild!",
+    message: "Github username is invalid!",
    }),
    {
     status: 400,
@@ -70,154 +70,79 @@ export async function POST(request) {
   auth: process.env.GITHUB_TOKEN,
  });
 
- if (!client) {
-  return new NextResponse(
-   JSON.stringify({
-    error: true,
-    message: "Internal Server Error! Please try again later!",
-   }),
-   {
-    status: 500,
-    headers: {
-     "Content-Type": "application/json",
-    },
-   }
-  );
- }
-
- const orgData = await client.orgs
-  .get({
+ try {
+  const orgData = await client.orgs.get({
    org: process.env.ORGANIZATION,
-  })
-  .catch(() => {
-   return new NextResponse(
-    JSON.stringify({
-     error: true,
-     message: "Internal Server Error! Please try again later!",
-    }),
-    {
-     status: 500,
-     headers: {
-      "Content-Type": "application/json",
-     },
-    }
-   );
   });
 
- if (orgData.status !== 200) {
-  return new NextResponse(
-   JSON.stringify({
-    error: true,
-    message: "Internal Server Error! Please try again later!",
-   }),
-   {
-    status: 500,
-    headers: {
-     "Content-Type": "application/json",
-    },
-   }
-  );
- }
-
- const user = await client.users
-  .getByUsername({
+  const user = await client.users.getByUsername({
    username,
-  })
-  .catch(() => {
+  });
+
+  if (!user?.data?.id) {
    return new NextResponse(
     JSON.stringify({
      error: true,
      message: "User not found!",
     }),
     {
-     status: 400,
+     status: 404,
      headers: {
       "Content-Type": "application/json",
      },
     }
    );
-  });
+  }
 
- if (user.status !== 200) {
-  return new NextResponse(
-   JSON.stringify({
-    error: true,
-    message: "User not found!",
-   }),
-   {
-    status: 400,
-    headers: {
-     "Content-Type": "application/json",
-    },
-   }
-  );
- }
-
- const userData = user.data;
-
- if (!userData.id) {
-  return new NextResponse(
-   JSON.stringify({
-    error: true,
-    message: "User not found!",
-   }),
-   {
-    status: 400,
-    headers: {
-     "Content-Type": "application/json",
-    },
-   }
-  );
- }
-
- const invite = await client.orgs
-  .createInvitation({
+  const invite = await client.orgs.createInvitation({
    org: process.env.ORGANIZATION,
-   invitee_id: userData.id,
+   invitee_id: user.data.id,
    role: "direct_member",
    team_ids: [parseInt(process.env.TEAM_ID)],
-  })
-  .catch((_err) => {
+  });
+
+  if (invite.status !== 201) {
    return new NextResponse(
     JSON.stringify({
      error: true,
-     message: "Internal Server Error! Please try again later!",
+     message: invite.data?.message || "Failed to send invitation!",
     }),
     {
-     status: 400,
+     status: invite.status || 400,
      headers: {
       "Content-Type": "application/json",
      },
     }
    );
-  });
+  }
 
- if (invite.status !== 201) {
-  const jsonBody = await invite.json();
+  return new NextResponse(
+   JSON.stringify({
+    error: false,
+    message: "User invited successfully!",
+   }),
+   {
+    status: 200,
+    headers: {
+     "Content-Type": "application/json",
+    },
+   }
+  );
+ } catch (error) {
+  const apiErrorMessage = error?.response?.data?.message || "Internal Server Error!";
+  const statusCode = error?.response?.status || 500;
+
   return new NextResponse(
    JSON.stringify({
     error: true,
-    message: jsonBody?.message || "Internal Server Error! Please try again later!",
+    message: apiErrorMessage,
    }),
    {
-    status: 400,
+    status: statusCode,
     headers: {
      "Content-Type": "application/json",
     },
    }
   );
  }
-
- return new NextResponse(
-  JSON.stringify({
-   error: false,
-   message: "User invited successfully!",
-  }),
-  {
-   status: 200,
-   headers: {
-    "Content-Type": "application/json",
-   },
-  }
- );
 }
