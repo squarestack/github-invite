@@ -32,10 +32,10 @@ importers:
     devDependencies:
       '@igorkowalczyk/eslint-config':
         specifier: 3.0.0-beta.16
-        version: 3.0.0-beta.16(eslint@9.17.0(jiti@1.21.6))(prettier@3.4.2)(tailwindcss@3.4.16)(typescript@5.7.2)
+        version: 3.0.0-beta.16(eslint@9.17.0(jiti@1.21.6))(prettier@3.4.2)(tailwindcss@3.4.17)(typescript@5.7.2)
       '@igorkowalczyk/is-browser':
         specifier: 5.0.4
-        version: 5.0.4(tailwindcss@3.4.16)
+        version: 5.0.4(tailwindcss@3.4.17)
       '@igorkowalczyk/prettier-config':
         specifier: 3.0.0-beta.16
         version: 3.0.0-beta.16(prettier@3.4.2)(tslib@2.8.1)(typescript@5.7.2)
@@ -44,7 +44,7 @@ importers:
         version: 15.1.0
       '@tailwindcss/aspect-ratio':
         specifier: 0.4.2
-        version: 0.4.2(tailwindcss@3.4.16)
+        version: 0.4.2(tailwindcss@3.4.17)
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.4.49)
@@ -64,8 +64,8 @@ importers:
         specifier: 0.6.9
         version: 0.6.9(prettier@3.4.2)
       tailwindcss:
-        specifier: 3.4.16
-        version: 3.4.16
+        specifier: 3.4.17
+        version: 3.4.17
       typescript:
         specifier: 5.7.2
         version: 5.7.2
@@ -864,10 +864,6 @@ packages:
 
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
-
-  cross-spawn@7.0.5:
-    resolution: {integrity: sha512-ZVJrKKYunU38/76t0RMOulHOnUcbU9GbpWKAOZ0mhjr7CX6FVrH+4FrAapSOekrgFQ3f/8gwMEuIft0aKq6Hug==}
-    engines: {node: '>= 8'}
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -2093,8 +2089,8 @@ packages:
     resolution: {integrity: sha512-7gr8p9TQP6RAHusBOSLs46F4564ZrjV8xFmw5zCmgmhGUcw2hxsShhJ6CEiHQMgPDwAQ1fWHPM0ypc4RMAig4A==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  tailwindcss@3.4.16:
-    resolution: {integrity: sha512-TI4Cyx7gDiZ6r44ewaJmt0o6BrMCT5aK5e0rmJ/G9Xq3w7CX/5VXl/zIPEJZFUK5VEqwByyhqNPycPlvcK4ZNw==}
+  tailwindcss@3.4.17:
+    resolution: {integrity: sha512-w33E2aCvSDP0tW9RZuNXadXlkHXqFzSkQew/aIa2i/Sj8fThxwovwlXHSPXTbAHwEIhBFXAedUhP2tueAKP8Og==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -2426,7 +2422,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.1': {}
 
-  '@igorkowalczyk/eslint-config@3.0.0-beta.16(eslint@9.17.0(jiti@1.21.6))(prettier@3.4.2)(tailwindcss@3.4.16)(typescript@5.7.2)':
+  '@igorkowalczyk/eslint-config@3.0.0-beta.16(eslint@9.17.0(jiti@1.21.6))(prettier@3.4.2)(tailwindcss@3.4.17)(typescript@5.7.2)':
     dependencies:
       '@eslint-react/eslint-plugin': 1.16.2(eslint@9.17.0(jiti@1.21.6))(typescript@5.7.2)
       '@eslint/compat': 1.2.3(eslint@9.17.0(jiti@1.21.6))
@@ -2448,7 +2444,7 @@ snapshots:
       eslint-plugin-n: 17.13.2(eslint@9.17.0(jiti@1.21.6))
       eslint-plugin-prettier: 5.2.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@9.17.0(jiti@1.21.6)))(eslint@9.17.0(jiti@1.21.6))(prettier@3.4.2)
       eslint-plugin-react: 7.37.2(eslint@9.17.0(jiti@1.21.6))
-      eslint-plugin-tailwindcss: 3.17.5(tailwindcss@3.4.16)
+      eslint-plugin-tailwindcss: 3.17.5(tailwindcss@3.4.17)
       globals: 15.12.0
       typescript-eslint: 8.15.0(eslint@9.17.0(jiti@1.21.6))(typescript@5.7.2)
     transitivePeerDependencies:
@@ -2457,9 +2453,9 @@ snapshots:
       - tailwindcss
       - typescript
 
-  '@igorkowalczyk/is-browser@5.0.4(tailwindcss@3.4.16)':
+  '@igorkowalczyk/is-browser@5.0.4(tailwindcss@3.4.17)':
     dependencies:
-      tailwindcss: 3.4.16
+      tailwindcss: 3.4.17
 
   '@igorkowalczyk/prettier-config@3.0.0-beta.16(prettier@3.4.2)(tslib@2.8.1)(typescript@5.7.2)':
     dependencies:
@@ -2733,9 +2729,9 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.4.16)':
+  '@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.4.17)':
     dependencies:
-      tailwindcss: 3.4.16
+      tailwindcss: 3.4.17
 
   '@types/eslint@9.6.1':
     dependencies:
@@ -3136,12 +3132,6 @@ snapshots:
   commondir@1.0.1: {}
 
   concat-map@0.0.1: {}
-
-  cross-spawn@7.0.5:
-    dependencies:
-      path-key: 3.1.1
-      shebang-command: 2.0.0
-      which: 2.0.2
 
   cross-spawn@7.0.6:
     dependencies:
@@ -3585,11 +3575,11 @@ snapshots:
       string.prototype.matchall: 4.0.11
       string.prototype.repeat: 1.0.0
 
-  eslint-plugin-tailwindcss@3.17.5(tailwindcss@3.4.16):
+  eslint-plugin-tailwindcss@3.17.5(tailwindcss@3.4.17):
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.49
-      tailwindcss: 3.4.16
+      tailwindcss: 3.4.17
 
   eslint-scope@8.2.0:
     dependencies:
@@ -3721,7 +3711,7 @@ snapshots:
 
   foreground-child@3.3.0:
     dependencies:
-      cross-spawn: 7.0.5
+      cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
   fraction.js@4.3.7: {}
@@ -4524,7 +4514,7 @@ snapshots:
       '@pkgr/core': 0.1.1
       tslib: 2.6.3
 
-  tailwindcss@3.4.16:
+  tailwindcss@3.4.17:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
