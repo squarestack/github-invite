@@ -40,7 +40,7 @@
     "sonner": "1.7.2"
   },
   "devDependencies": {
-    "@igorkowalczyk/eslint-config": "3.0.0-beta.16",
+    "@igorkowalczyk/eslint-config": "3.0.2",
     "@igorkowalczyk/prettier-config": "3.0.0-beta.16",
     "@igorkowalczyk/is-browser": "5.0.4",
     "@next/bundle-analyzer": "15.1.4",
