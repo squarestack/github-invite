@@ -34,7 +34,7 @@
     "@octokit/rest": "21.1.1",
     "@vercel/analytics": "1.5.0",
     "geist": "1.3.1",
-    "next": "15.2.0",
+    "next": "15.2.1",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "sonner": "2.0.1"
@@ -43,7 +43,7 @@
     "@igorkowalczyk/eslint-config": "3.0.2",
     "@igorkowalczyk/prettier-config": "3.0.2",
     "@igorkowalczyk/is-browser": "5.0.4",
-    "@next/bundle-analyzer": "15.2.0",
+    "@next/bundle-analyzer": "15.2.1",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "autoprefixer": "10.4.20",
     "encoding": "0.1.13",
