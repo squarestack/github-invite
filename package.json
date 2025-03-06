@@ -40,9 +40,9 @@
     "sonner": "2.0.1"
   },
   "devDependencies": {
-    "@igorkowalczyk/eslint-config": "3.0.2",
-    "@igorkowalczyk/prettier-config": "3.0.2",
+    "@igorkowalczyk/eslint-config": "3.0.7",
     "@igorkowalczyk/is-browser": "5.1.0",
+    "@igorkowalczyk/prettier-config": "3.0.7",
     "@next/bundle-analyzer": "15.2.1",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "autoprefixer": "10.4.20",
@@ -57,5 +57,10 @@
   "peerDependencies": {
     "typescript": "5.8.2"
   },
-  "packageManager": "pnpm@10.6.0"
+  "packageManager": "pnpm@10.6.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp"
+    ]
+  }
 }
