@@ -47,7 +47,7 @@
     "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/postcss": "^4.0.11",
     "encoding": "0.1.13",
-    "eslint": "9.22.0",
+    "eslint": "9.23.0",
     "postcss": "8.5.3",
     "prettier": "3.5.3",
     "prettier-plugin-tailwindcss": "0.6.11",
