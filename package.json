@@ -34,24 +34,24 @@
     "@octokit/rest": "21.1.1",
     "@vercel/analytics": "1.5.0",
     "geist": "1.3.1",
-    "next": "15.2.3",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
-    "sonner": "2.0.2"
+    "next": "15.2.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "sonner": "2.0.3"
   },
   "devDependencies": {
     "@igorkowalczyk/eslint-config": "3.0.7",
     "@igorkowalczyk/is-browser": "5.1.0",
     "@igorkowalczyk/prettier-config": "3.0.7",
-    "@next/bundle-analyzer": "15.2.3",
+    "@next/bundle-analyzer": "15.2.4",
     "@tailwindcss/aspect-ratio": "0.4.2",
-    "@tailwindcss/postcss": "^4.0.11",
+    "@tailwindcss/postcss": "^4.0.17",
     "encoding": "0.1.13",
     "eslint": "9.23.0",
     "postcss": "8.5.3",
     "prettier": "3.5.3",
     "prettier-plugin-tailwindcss": "0.6.11",
-    "tailwindcss": "4.0.15",
+    "tailwindcss": "4.0.17",
     "typescript": "5.8.2"
   },
   "peerDependencies": {
