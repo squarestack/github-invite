@@ -37,7 +37,7 @@
     "next": "15.2.3",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "sonner": "2.0.2"
+    "sonner": "2.0.3"
   },
   "devDependencies": {
     "@igorkowalczyk/eslint-config": "3.0.7",
