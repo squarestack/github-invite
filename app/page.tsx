@@ -1,6 +1,7 @@
 import { Form } from "components/Form";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
  title: "Join us",
 };
 
