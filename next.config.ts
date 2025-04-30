@@ -1,17 +1,17 @@
 import withBundleAnalyzer from "@next/bundle-analyzer";
+import type { NextConfig } from "next";
 
 const withBundle = withBundleAnalyzer({
  enabled: process.env.ANALYZE === "true",
 });
 
-const nextConfig = {
+const nextConfig: NextConfig = {
  reactStrictMode: true,
- pageExtensions: ["mdx", "md", "jsx", "js"],
  poweredByHeader: false,
  eslint: {
   ignoreDuringBuilds: true,
  },
- headers() {
+ async headers() {
   return [
    {
     source: "/(.*)",
@@ -63,12 +63,4 @@ const nextConfig = {
  },
 };
 
-const createConfig = () => {
- const plugins = [withBundle];
- const config = plugins.reduce((acc, next) => next(acc), {
-  ...nextConfig,
- });
- return config;
-};
-
-export default createConfig;
+export default withBundle(nextConfig);
