@@ -48,7 +48,7 @@
     "@tailwindcss/postcss": "^4.1.4",
     "@types/node": "22.15.3",
     "@types/react": "19.1.2",
-    "eslint": "9.25.1",
+    "eslint": "9.26.0",
     "postcss": "8.5.3",
     "prettier": "3.5.3",
     "prettier-plugin-tailwindcss": "0.6.11",
