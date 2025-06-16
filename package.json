@@ -46,7 +46,7 @@
     "@next/bundle-analyzer": "15.3.3",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/postcss": "^4.1.4",
-    "@types/node": "22.15.31",
+    "@types/node": "22.15.32",
     "@types/react": "19.1.8",
     "eslint": "9.29.0",
     "postcss": "8.5.5",
