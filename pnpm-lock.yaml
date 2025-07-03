@@ -40,8 +40,8 @@ importers:
         specifier: 5.1.0
         version: 5.1.0(tailwindcss@4.1.11)
       '@igorkowalczyk/prettier-config':
-        specifier: 3.0.8
-        version: 3.0.8(prettier@3.6.2)
+        specifier: 3.1.0
+        version: 3.1.0(prettier@3.6.2)
       '@next/bundle-analyzer':
         specifier: 15.3.4
         version: 15.3.4
@@ -218,8 +218,8 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || >=4.0.0'
 
-  '@igorkowalczyk/prettier-config@3.0.8':
-    resolution: {integrity: sha512-48oBTJ+ufxL0yo16EXSww7j9sBAG2Z7Wk31UEb14se7G5zr1TK+/QgGw72UD0OuSrDL7c4wxdBLpcRtLzhjMgw==}
+  '@igorkowalczyk/prettier-config@3.1.0':
+    resolution: {integrity: sha512-nhD66AFONmEGzZK++CAzRchMF/TXIx26+DnkfbbQSSHZU/BfKJV47pkqYVRs1youwC58U7s+t55beJvvU46UEA==}
     peerDependencies:
       prettier: ^3
 
@@ -2411,7 +2411,7 @@ snapshots:
     dependencies:
       tailwindcss: 4.1.11
 
-  '@igorkowalczyk/prettier-config@3.0.8(prettier@3.6.2)':
+  '@igorkowalczyk/prettier-config@3.1.0(prettier@3.6.2)':
     dependencies:
       prettier: 3.6.2
 
