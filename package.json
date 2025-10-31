@@ -30,7 +30,7 @@
     "url": "https://github.com/squarestack/github-invite/issues"
   },
   "dependencies": {
-    "@octokit/rest": "22.0.0",
+    "@octokit/rest": "22.0.1",
     "@vercel/analytics": "1.5.0",
     "geist": "1.5.1",
     "next": "15.5.2",
