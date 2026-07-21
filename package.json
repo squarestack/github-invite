@@ -34,7 +34,7 @@
     "@vercel/analytics": "1.5.0",
     "geist": "1.5.1",
     "next": "15.5.7",
-    "react": "19.1.1",
+    "react": "19.2.8",
     "react-dom": "19.1.1",
     "sonner": "2.0.7",
     "zod": "4.1.5"
